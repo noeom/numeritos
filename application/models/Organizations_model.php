@@ -9,6 +9,12 @@ class Organizations_model extends CI_Model {
         return $query->result();
     }
 
+    public function getOrganizationById($org_id)
+    {
+        $query = $this->db->query('SELECT * FROM organizations WHERE id = ?', array($org_id));
+        return $query->row();
+    }
+
     public function addOrganization($name)
     {
         return $this->db->query('INSERT INTO organizations(name) VALUES (?)', array($name));

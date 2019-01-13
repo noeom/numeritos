@@ -3,8 +3,8 @@
 </div>
 
 <div class="text-center mt-3">
-    <i class="fas fa-university"></i> IES San Blas
-    <i class="fas fa-users ml-3"></i> 1º ESO D
+    <i class="fas fa-university"></i> <?= $org_name ?>
+    <i class="fas fa-users ml-3"></i> <?= $group_name ?>
 </div>
 
 <?php include 'snippets/display_messages.php'; ?>

@@ -23,7 +23,18 @@ class Profile extends MY_Controller {
 	    // Verificar sesión
         $this->check_session();
 
-        $this->loadModularView('mod_profile');
+        // Get group info
+        $this->load->model('groups_model');
+        $group = $this->groups_model->getGroupById($this->session->user->id);
+
+        // Get org info
+        $this->load->model('organizations_model');
+        $org = $this->organizations_model->getOrganizationById($group->org_id);
+
+        $data['group_name'] = $group->name;
+        $data['org_name'] = $org->name;
+
+        $this->loadModularView('mod_profile', $data);
 	}
 
 	public function change_password()
