@@ -13,7 +13,7 @@
             <div class="input-group-prepend">
                 <div class="input-group-text"><i class="fas fa-pen"></i></div>
             </div>
-            <input class="form-control" type="number" name="solution" required autofocus>
+            <input class="form-control" type="text" name="solution" required autofocus>
             <div class="input-group-append">
                 <button type="submit" class="btn btn-primary"><i class="fas fa-question" title="Comprobar solución"></i></button>
             </div>
