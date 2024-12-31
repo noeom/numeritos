@@ -26,7 +26,7 @@ Supervisors can check the performance of their students. Students can also track
 
 ![Performance](https://github.com/noeom/numeritos/blob/master/doc/img/03_supervisor.png)
 
-## Licence
+## License
 
 All material in this repository is under licence [**Creative Commons Attribution-Sharealike 4.0 International**](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
 
