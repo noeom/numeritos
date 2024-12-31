@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Mind the scope="prototype" parameter! -->
+	<bean id="welcomeAction" class="net.numeritos.struts.actions.WelcomeAction" scope="prototype"/>
+	
+    <bean id="loginAction" class="net.numeritos.struts.actions.LoginAction" scope="prototype">
+    	<property name="usersService" ref="service.usersService"/>
+    </bean>
+    
+    <bean id="exerciseLoadAction" class="net.numeritos.struts.actions.ExerciseLoadAction" scope="prototype">
+        <property name="exercisesService" ref="service.exercisesService"/>
+    </bean>
+    
+    <bean id="exerciseCheckAction" class="net.numeritos.struts.actions.ExerciseCheckAction" scope="prototype">
+    	<property name="exercisesService" ref="service.exercisesService"/>
+    	<property name="answerProcessingService" ref="service.answerProcessingService"/>
+    </bean>   
+    
+	<bean id="statsAction" class="net.numeritos.struts.actions.StatsAction" scope="prototype">
+
+    </bean>
+    
+	<bean id="modulesListAction" class="net.numeritos.struts.actions.ModulesListAction" scope="prototype">
+    </bean>
+    
+	<bean id="selectModuleAction" class="net.numeritos.struts.actions.SelectModuleAction" scope="prototype">
+		<property name="usersService" ref="service.usersService"/>	
+    </bean>         
+    
+    <bean id="userSettingsAction" class="net.numeritos.struts.actions.UserSettingsAction" scope="prototype">
+    	<property name="groupsService" ref="service.groupsService"/>
+    </bean>
+    
+	<bean id="changePasswordAction" class="net.numeritos.struts.actions.ChangePasswordAction" scope="prototype">
+    	<property name="usersService" ref="service.usersService"/>
+    </bean>
+    
+	<bean id="jsonStatsAction" class="net.numeritos.struts.actions.JsonStatsAction" scope="prototype">
+    	<property name="exerciseActivityService" ref="service.exerciseActivityService"/>
+    </bean>    
+    
+	<bean id="adminConsoleAction" class="net.numeritos.struts.actions.AdminConsoleAction" scope="prototype">
+		<property name="groupsService" ref="service.groupsService"/>
+    </bean>
+    
+	<bean id="adminConsoleUsersAction" class="net.numeritos.struts.actions.AdminConsoleUsersAction" scope="prototype">
+		<property name="groupsService" ref="service.groupsService"/>
+		<property name="usersService" ref="service.usersService"/>			
+    </bean>    
+    
+	<bean id="adminConsoleGroupsAction" class="net.numeritos.struts.actions.AdminConsoleGroupsAction" scope="prototype">
+		<property name="usersService" ref="service.usersService"/>
+		<property name="groupsService" ref="service.groupsService"/>
+    </bean>    
+    
+	<bean id="jsonAdminAction" class="net.numeritos.struts.actions.admin.json.JsonAdminAction" scope="prototype">
+		<property name="usersService" ref="service.usersService"/>
+		<property name="groupsService" ref="service.groupsService"/>
+		<property name="exerciseActivityService" ref="service.exerciseActivityService"/>		
+    </bean>    
+    
+    <bean id="logoutAction" class="net.numeritos.struts.actions.LogoutAction" scope="prototype"/>
+    
+</beans>

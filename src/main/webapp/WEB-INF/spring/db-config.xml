@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- OrmLite connection sources -->
+	
+	<bean id="db.connectionSource" class="com.j256.ormlite.jdbc.JdbcPooledConnectionSource" destroy-method="close">
+		<constructor-arg index="0" value="jdbc:h2:file:~/.numeritos/db/numeritos_db"/>
+		<constructor-arg index="1" value="noe"/>
+		<constructor-arg index="2" value="noenoe"/>
+	</bean>
+	
+	<!--
+	<bean id="db.connectionSource" class="com.j256.ormlite.jdbc.JdbcPooledConnectionSource" destroy-method="close">
+		<constructor-arg index="0" value="jdbc:mysql://localhost:3306/numeritos"/>
+		<constructor-arg index="1" value="noe"/>
+		<constructor-arg index="2" value="noenoe"/>
+	</bean>
+
+	<bean id="db.connectionSource" class="com.j256.ormlite.jdbc.JdbcPooledConnectionSource" destroy-method="close">
+		<constructor-arg index="0" value="jdbc:mariadb://localhost:3306/numeritos"/>
+		<constructor-arg index="1" value="numeritos_db_user"/>
+		<constructor-arg index="2" value="Hfq2s515@"/>
+	</bean>
+	-->	
+
+</beans>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="service.beanMapperService" class="net.numeritos.service.implementation.BeanMapperServiceImpl">
+	</bean>	
+	
+	<bean id="service.answerProcessingService" class="net.numeritos.service.implementation.AnswerProcessingServiceImpl">
+	</bean>	
+		
+	<bean id="service.cryptoService" class="net.numeritos.service.implementation.BCryptCryptoServiceImpl"/>
+	
+	<bean id="service.ModulesService" class="net.numeritos.service.implementation.DBModulesServiceImpl" init-method="init">
+		<property name="modulesDao" ref="dao.modulesDao"/>	
+	</bean>
+	
+	<bean id="service.usersService" class="net.numeritos.service.implementation.DBUsersServiceImpl">
+		<property name="usersDao" ref="dao.usersDao"/>
+		<property name="modulesService" ref="service.ModulesService"/>
+		<property name="beanMapperService" ref="service.beanMapperService"/>
+		<property name="cryptoService" ref="service.cryptoService"/>			
+	</bean>
+	
+	<bean id="service.groupsService" class="net.numeritos.service.implementation.DBGroupsServiceImpl">
+		<property name="groupsDao" ref="dao.groupsDao"/>
+	</bean>
+	
+	<bean id="service.exercisesService" class="net.numeritos.service.implementation.DBExercisesServiceImpl">
+		<property name="exercisesDao" ref="dao.exercisesDao"/>
+		<property name="modIndexDao" ref="dao.moduleIndexDao"/>
+		<property name="userExerciseActivityDao" ref="dao.userExerciseActivityDao"/>
+		<property name="answerProcessingService" ref="service.answerProcessingService"/>
+		<property name="modulesService" ref="service.ModulesService"/>
+		<property name="beanMapperService" ref="service.beanMapperService"/>
+	</bean>
+	
+	<bean id="service.exerciseActivityService" class="net.numeritos.service.implementation.DBExerciseActivityServiceImpl">
+		<property name="userExerciseActivityDao" ref="dao.userExerciseActivityDao"/>
+		<property name="exercisesDao" ref="dao.exercisesDao"/>
+	</bean>
+
+</beans>

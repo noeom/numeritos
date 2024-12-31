@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!--  Database configuration -->
+	<import resource="spring/db-config.xml"/>
+		
+	<!--  DAOs -->
+	<import resource="spring/daos.xml"/>
+		
+	<!--  Services -->
+	<import resource="spring/services.xml"/>
+	
+	<!--  Struts actions. -->
+	<import resource="spring/struts-actions.xml"/>
+	
+	<!--  Struts interceptors. -->
+	<import resource="spring/struts-interceptors.xml"/>	
+    
+</beans>

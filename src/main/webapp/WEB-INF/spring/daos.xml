@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dao.usersDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
+		<constructor-arg ref="db.connectionSource"/>
+		<constructor-arg value="net.numeritos.dto.db.ormlite.User"/>
+	</bean>
+	
+	<bean id="dao.groupsDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
+		<constructor-arg ref="db.connectionSource"/>
+		<constructor-arg value="net.numeritos.dto.db.ormlite.UserGroup"/>
+	</bean>
+	
+	<bean id="dao.modulesDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
+		<constructor-arg ref="db.connectionSource"/>
+		<constructor-arg value="net.numeritos.dto.db.ormlite.Module"/>
+	</bean>
+	
+	<bean id="dao.moduleIndexDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
+		<constructor-arg ref="db.connectionSource"/>
+		<constructor-arg value="net.numeritos.dto.db.ormlite.UserModuleIndex"/>
+	</bean>
+	
+	<bean id="dao.exercisesDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
+		<constructor-arg ref="db.connectionSource"/>
+		<constructor-arg value="net.numeritos.dto.db.ormlite.Exercise"/>
+	</bean>
+	
+	<bean id="dao.userExerciseActivityDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
+		<constructor-arg ref="db.connectionSource"/>
+		<constructor-arg value="net.numeritos.dto.db.ormlite.UserExerciseActivity"/>
+	</bean>	
+	
+</beans>

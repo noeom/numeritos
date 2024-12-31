@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-6.0.dtd">
+
+<struts>
+
+	<constant name="struts.custom.i18n.resources" value="global-messages" />
+	
+    <constant name="struts.devMode" value="true" />
+    
+    <constant name="struts.ui.theme" value="simple" />
+    
+    <package name="numeritos-logout" extends="struts-default">
+        <action name="logout" class="logoutAction">
+			<result name="success" type="freemarker">ftl/login.ftl</result>        
+        </action>    
+    </package>
+    
+    <package name="numeritos-default" extends="struts-default">
+    	<interceptors>
+    	
+			<!-- Session authentication interceptor -->
+    		<interceptor name="authenticationInterceptor" class="authenticationInterceptor"/>
+
+    		<!-- Administration privileges interceptor -->
+    		<interceptor name="administrationInterceptor" class="administrationInterceptor"/>  
+    		
+    		<!-- Caching headers interceptor -->
+    		<interceptor name="cachingHeadersInterceptor" class="cachingHeadersInterceptor"/>
+    	
+    		<!-- Default interceptor stack for this package (default + authentication) -->	
+			<interceptor-stack name="numeritosDefaultStack">
+				<interceptor-ref name="authenticationInterceptor"/>
+				<interceptor-ref name="cachingHeadersInterceptor"/>				
+				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+			
+    		<!-- Default interceptor stack for administration packages (default + administration) -->	
+			<interceptor-stack name="numeritosAdminStack">
+				<interceptor-ref name="administrationInterceptor"/>
+				<interceptor-ref name="numeritosDefaultStack"/>
+			</interceptor-stack>			
+			    	
+    	</interceptors>
+    	
+		<!-- Common login result -->    	
+    	<global-results>
+    		 <result name="login" type="redirectAction">logout</result>
+    	</global-results>
+    			    	
+    </package>
+
+	<package name="numeritos-login" extends="struts-default">
+		
+		<action name="welcome" class="welcomeAction">
+			<result name="success" type="freemarker">ftl/login.ftl</result>
+		</action>
+	
+        <action name="login" class="loginAction">
+			<result name="success" type="redirectAction">exerciseLoad</result>
+            <result name="input" type="freemarker">ftl/login.ftl</result>
+        </action>
+        
+    </package>
+    
+    <package name="numeritos-secure" extends="numeritos-default">
+    	
+    	<!-- Secure interceptor stack as default -->
+		<default-interceptor-ref name="numeritosDefaultStack"/>
+		    	
+        <action name="exerciseLoad" class="exerciseLoadAction">
+            <result name="simple_op" type="freemarker">ftl/simple_operation_view.ftl</result>
+            <result name="simple_fraction_op" type="freemarker">ftl/simple_fraction_operation_view.ftl</result>
+            <result name="generating_fraction" type="freemarker">ftl/generating_fraction_view.ftl</result>
+            <result name="first_deg_eq" type="freemarker">ftl/first_deg_equation_view.ftl</result>
+        </action>
+        
+        <action name="exerciseCheck" class="exerciseCheckAction">
+            <result name="success" type="freemarker">ftl/show_exercise_result.ftl</result>
+            <result name="input" type="freemarker">ftl/answer_format_error.ftl</result>
+        </action>
+        
+        <action name="stats" class="statsAction">
+            <result name="success" type="freemarker">ftl/stats.ftl</result>
+        </action>
+        
+		<action name="modulesList" class="modulesListAction">
+            <result name="success" type="freemarker">ftl/modules_list.ftl</result>
+        </action>
+        
+		<action name="selectModule" class="selectModuleAction">
+            <result name="input" type="freemarker">ftl/modules_list.ftl</result>
+            <result name="success" type="redirectAction">exerciseLoad</result>
+        </action>        
+        
+        <action name="userSettings" class="userSettingsAction">
+            <result name="success" type="freemarker">ftl/user_settings.ftl</result>
+        </action>
+        
+        <action name="changePassword" class="changePasswordAction">
+            <result name="success" type="freemarker">ftl/user_settings.ftl</result>
+            <result name="input" type="freemarker">ftl/user_settings.ftl</result>
+        </action>
+
+    </package>
+    
+    <package name="numeritos-admin" extends="numeritos-default">
+    
+    	<!-- Admin interceptor stack as default -->
+		<default-interceptor-ref name="numeritosAdminStack"/>
+		
+        <action name="adminConsole" class="adminConsoleAction">
+            <result name="success" type="freemarker">ftl/admin_console_results.ftl</result>
+        </action>	
+        
+        <action name="adminConsoleGroups" class="adminConsoleGroupsAction">
+            <result name="success" type="freemarker">ftl/admin_console_groups.ftl</result>
+        </action>
+        
+        <action name="adminConsoleUsers" class="adminConsoleUsersAction">
+            <result name="success" type="freemarker">ftl/admin_console_users.ftl</result>
+        </action>        
+        
+		<action name="adminCreateGroup" class="adminConsoleGroupsAction" method="create">
+            <result name="success" type="redirectAction">adminConsoleGroups</result>
+        </action> 
+        
+		<action name="adminDeleteGroup" class="adminConsoleGroupsAction" method="delete">
+            <result name="success" type="redirectAction">adminConsoleGroups</result>
+        </action>  
+        
+		<action name="adminDownloadResults" class="jsonAdminAction" method="getResultsFile">
+            <result name="success" type="stream">
+				<param name="contentType">text/csv</param>
+				<param name="inputName">downloadStream</param>
+				<param name="contentDisposition">attachment;filename="${fileName}.csv"</param>
+			</result>
+        </action> 
+    	      
+    </package>
+    
+    <package name="json" extends="numeritos-default, json-default">
+		<interceptors>
+			<!-- Default interceptor stack for this package (default + administration + json) -->	
+			<interceptor-stack name="numeritosJsonStack">
+				<interceptor-ref name="json"/>
+				<interceptor-ref name="numeritosDefaultStack"/>
+			</interceptor-stack>  		
+		</interceptors>
+   		
+		<default-interceptor-ref name="numeritosJsonStack"/> 
+		
+		<action name="jsonUserStats" class="jsonStatsAction">
+        	<result name="success" type="json">
+        		<param name="root">results</param>
+			</result>
+        </action>
+        		    
+    </package>
+    
+    <package name="json-admin" extends="numeritos-default, json-default">
+		<interceptors>
+			<!-- Default interceptor stack for this package (default + administration + json) -->	
+			<interceptor-stack name="numeritosJsonAdminStack">
+				<interceptor-ref name="administrationInterceptor"/>
+				<interceptor-ref name="json"/>
+				<interceptor-ref name="numeritosDefaultStack"/>
+			</interceptor-stack>  		
+		</interceptors>
+   		
+		<default-interceptor-ref name="numeritosJsonAdminStack"/>  	  
+        
+		<action name="jsonAdminUsers" class="jsonAdminAction" method="getUsersByGroupId">
+        	<result name="success" type="json">
+        		<param name="root">users</param>
+			</result>
+        </action>
+        
+		<action name="jsonResetPassword" class="jsonAdminAction" method="resetUserPassword">
+        	<result name="success" type="json">
+        		<param name="root">userId</param>
+			</result>
+        </action>  
+        
+		<action name="jsonChangeUserGroup" class="jsonAdminAction" method="changeUserGroup">
+        	<result name="success" type="json">
+        		<param name="root">userId</param>
+			</result>
+        </action>
+        
+		<action name="jsonGetUserResults" class="jsonAdminAction" method="getResults">
+        	<result name="success" type="json">
+        		<param name="root">userResults</param>
+			</result>
+        </action>        
+                      
+    </package> 
+    
+</struts>
