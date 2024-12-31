@@ -14,9 +14,17 @@ Each student must authenticate using her corporate e-mail and custom password. T
 
 ![Authentication is simple and secure](https://github.com/noeom/numeritos/blob/master/doc/img/01_auth.png)
 
-Students can choose among a wide range of exercises to do. Feedback is offered after each exercise.
+Students can choose among a wide range of exercises to do. Maths are finely rendered in $\LaTeX{}$.
+
+![Latex rendering](https://github.com/noeom/numeritos/blob/master/doc/img/04_latex.png)
+
+Feedback is offered after each exercise.
 
 ![Feedback](https://github.com/noeom/numeritos/blob/master/doc/img/02_feedback.png)
+
+Supervisors can check the performance of their students. Students can also track their own performance.
+
+![Performance](https://github.com/noeom/numeritos/blob/master/doc/img/03_supervisor.png)
 
 ## Licence
 
