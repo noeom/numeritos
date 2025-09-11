@@ -1,4 +1,4 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -8,26 +8,31 @@ import com.j256.ormlite.stmt.QueryBuilder;
 import com.j256.ormlite.stmt.UpdateBuilder;
 
 import lombok.Data;
-import net.numeritos.dto.db.ormlite.Module;
 import net.numeritos.dto.db.ormlite.User;
 import net.numeritos.dto.presentation.UserDto;
-import net.numeritos.service.declaration.BeanMapperService;
-import net.numeritos.service.declaration.CryptoService;
-import net.numeritos.service.declaration.ModulesService;
-import net.numeritos.service.declaration.UsersService;
+import net.numeritos.service.BeanMapperService;
+import net.numeritos.service.CryptoService;
+import net.numeritos.service.UsersService;
+import net.numeritos.service.support.DBExerciseIndexCache;
 
 public @Data class DBUsersServiceImpl implements UsersService {
 	
 	private BeanMapperService beanMapperService;
 
-	// Modules service.
-	private ModulesService modulesService;
-	
 	// Criptography service.
 	private CryptoService cryptoService;
 	
 	// Users DAO.
 	private Dao<User, Integer> usersDao;
+	
+	// Exercises index cache helper
+	private DBExerciseIndexCache exIdCache;	
+	
+	@Override
+	public void createUser(UserDto user) throws SQLException {
+		User u = beanMapperService.map(user);
+		this.usersDao.create(u);
+	}	
 	
 	@Override
 	public UserDto getUserByEmail(String email) throws SQLException {
@@ -57,11 +62,11 @@ public @Data class DBUsersServiceImpl implements UsersService {
 	@Override
 	public boolean setDefaultModule(int userId, int defaultModuleId) throws SQLException {
 		
-		// Check for module in DB.
-		Module module = modulesService.getModuleById(defaultModuleId);
+		// Check for module in cache.
+		Integer moduleSize = exIdCache.getNumOfExercisesByType(defaultModuleId);
 		
 		// If module doesn't exists, return false.
-		if (module == null) return false;
+		if (moduleSize == null) return false;
 		
 		// Update user.
 		UpdateBuilder<User, Integer> ub = usersDao.updateBuilder();
@@ -101,5 +106,5 @@ public @Data class DBUsersServiceImpl implements UsersService {
 	public boolean checkPassword(int userId, String plainPassword) throws SQLException {
 		User user = usersDao.queryForId(userId);
 		return cryptoService.checkPassword(plainPassword, user.getPasswordHash());
-	}	
+	}
 }

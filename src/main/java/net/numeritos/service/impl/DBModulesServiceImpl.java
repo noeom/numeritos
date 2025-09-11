@@ -1,4 +1,4 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import com.j256.ormlite.dao.Dao;
 
 import lombok.Data;
 import net.numeritos.dto.db.ormlite.Module;
-import net.numeritos.service.declaration.ModulesService;
+import net.numeritos.service.ModulesService;
 
 public @Data class DBModulesServiceImpl implements ModulesService {
 

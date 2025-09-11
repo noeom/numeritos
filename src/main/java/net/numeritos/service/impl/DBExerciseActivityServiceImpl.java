@@ -1,4 +1,4 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import java.sql.SQLException;
 import java.util.Calendar;
@@ -12,7 +12,7 @@ import net.numeritos.constants.ExerciseResult;
 import net.numeritos.dto.db.ormlite.Exercise;
 import net.numeritos.dto.db.ormlite.UserExerciseActivity;
 import net.numeritos.dto.presentation.ResultsDto;
-import net.numeritos.service.declaration.ExerciseActivityService;
+import net.numeritos.service.ExerciseActivityService;
 
 
 public @Data class DBExerciseActivityServiceImpl implements ExerciseActivityService {

@@ -12,6 +12,8 @@ public @Data class UserDto {
 	
 	private String surname;
 	
+	private String passwordHash;
+	
 	private String email;
 	
 	private boolean admin;

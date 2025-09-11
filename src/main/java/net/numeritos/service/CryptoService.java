@@ -1,4 +1,4 @@
-package net.numeritos.service.declaration;
+package net.numeritos.service;
 
 public interface CryptoService {
 

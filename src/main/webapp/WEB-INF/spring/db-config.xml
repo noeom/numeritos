@@ -7,24 +7,14 @@
 	
 	<!-- OrmLite connection sources -->
 	
-	<bean id="db.connectionSource" class="com.j256.ormlite.jdbc.JdbcPooledConnectionSource" destroy-method="close">
-		<constructor-arg index="0" value="jdbc:h2:file:~/.numeritos/db/numeritos_db"/>
-		<constructor-arg index="1" value="noe"/>
-		<constructor-arg index="2" value="noenoe"/>
+	<!-- Container defined data source -->
+	<bean id="db.dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+	    <property name="jndiName" value="java:comp/env/jdbc/numeritos_db"/>
+	</bean>
+
+	<!-- ORMLite ConnectionSource -->
+	<bean id="db.connectionSource" class="net.numeritos.db.factory.OrmLiteConnectionSourceFactory">
+	    <property name="dataSource" ref="db.dataSource"/>
 	</bean>
 	
-	<!--
-	<bean id="db.connectionSource" class="com.j256.ormlite.jdbc.JdbcPooledConnectionSource" destroy-method="close">
-		<constructor-arg index="0" value="jdbc:mysql://localhost:3306/numeritos"/>
-		<constructor-arg index="1" value="noe"/>
-		<constructor-arg index="2" value="noenoe"/>
-	</bean>
-
-	<bean id="db.connectionSource" class="com.j256.ormlite.jdbc.JdbcPooledConnectionSource" destroy-method="close">
-		<constructor-arg index="0" value="jdbc:mariadb://localhost:3306/numeritos"/>
-		<constructor-arg index="1" value="numeritos_db_user"/>
-		<constructor-arg index="2" value="Hfq2s515@"/>
-	</bean>
-	-->	
-
 </beans>

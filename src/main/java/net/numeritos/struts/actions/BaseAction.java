@@ -1,10 +1,11 @@
 package net.numeritos.struts.actions;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
+import org.apache.struts2.ActionSupport;
 import org.apache.struts2.action.SessionAware;
-
-import com.opensymphony.xwork2.ActionSupport;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -26,6 +27,11 @@ public abstract class BaseAction extends ActionSupport implements SessionAware, 
 	@Getter
 	@Setter
 	private UserDto user;
+	
+	@Getter
+	private List<String> userErrors = new ArrayList<String>();
+	@Getter
+	private List<String> userMessages = new ArrayList<String>();
 
 	public String getTextParams(String key, String... params) {
 		return getText(key, params);
@@ -40,7 +46,11 @@ public abstract class BaseAction extends ActionSupport implements SessionAware, 
 		switch (exerciseType) {
 		case ExerciseTypeConstants.SIMPLE_FRACTION_OPERATION:
 			return "simple_fraction_op";
-		case ExerciseTypeConstants.SIMPLE_TRANSPOSITION_EQUATION:
+		case ExerciseTypeConstants.SIMPLE_EQUATION:
+		case ExerciseTypeConstants.TRANSPOSITION_EQUATION_1:
+		case ExerciseTypeConstants.TRANSPOSITION_EQUATION_2:
+		case ExerciseTypeConstants.PARENTHESIS_EQUATION_1:
+		case ExerciseTypeConstants.PARENTHESIS_EQUATION_2:			
 			return "first_deg_eq";
 		case ExerciseTypeConstants.GENERATING_FRACTION_OPERATION:
 			return "generating_fraction";
@@ -48,5 +58,13 @@ public abstract class BaseAction extends ActionSupport implements SessionAware, 
 		default:
 			return "simple_op";
 		}
-	}	
+	}
+	
+	public void addUserError(String error) {
+		this.userErrors.add(error);
+	}
+	
+	public void addUserMessage(String message) {
+		this.userMessages.add(message);
+	}
 }

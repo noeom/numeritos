@@ -54,6 +54,7 @@
     </bean>    
     
 	<bean id="adminConsoleGroupsAction" class="net.numeritos.struts.actions.AdminConsoleGroupsAction" scope="prototype">
+		<property name="cryptoService" ref="service.cryptoService"/>
 		<property name="usersService" ref="service.usersService"/>
 		<property name="groupsService" ref="service.groupsService"/>
     </bean>    

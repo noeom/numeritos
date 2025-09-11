@@ -1,8 +1,8 @@
 package net.numeritos.struts.interceptors;
 
-import com.opensymphony.xwork2.Action;
-import com.opensymphony.xwork2.ActionInvocation;
-import com.opensymphony.xwork2.interceptor.Interceptor;
+import org.apache.struts2.ActionInvocation;
+import org.apache.struts2.action.Action;
+import org.apache.struts2.interceptor.Interceptor;
 
 import net.numeritos.constants.SessionKeys;
 import net.numeritos.dto.presentation.UserDto;

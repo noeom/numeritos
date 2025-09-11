@@ -5,3 +5,7 @@ source ex_data/201.sql
 source ex_data/202.sql
 source ex_data/301.sql
 source ex_data/501.sql
+source ex_data/502.sql
+source ex_data/503.sql
+source ex_data/504.sql
+source ex_data/505.sql

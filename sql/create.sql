@@ -9,25 +9,17 @@ DROP TABLE IF EXISTS exercises;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS user_groups;
 DROP TABLE IF EXISTS organizations;
-DROP TABLE IF EXISTS modules;
-
-CREATE TABLE IF NOT EXISTS modules (
-    id  INT UNSIGNED NOT NULL,
-    start_idx INT UNSIGNED NOT NULL,
-    end_idx INT UNSIGNED NOT NULL,
-    PRIMARY KEY (id)
-);
 
 CREATE TABLE IF NOT EXISTS organizations (
-    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(300) NOT NULL,
     PRIMARY KEY(id)
 );
 
 CREATE TABLE IF NOT EXISTS user_groups (
-    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(300) NOT NULL,
-    org_id INT UNSIGNED NOT NULL,
+    org_id INT NOT NULL,
     PRIMARY KEY(id),
     FOREIGN KEY (org_id)
         REFERENCES organizations(id)
@@ -36,7 +28,7 @@ CREATE TABLE IF NOT EXISTS user_groups (
 );
 
 CREATE TABLE IF NOT EXISTS users (
-    id  INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    id  INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
     surname VARCHAR(200) NOT NULL,
     password_hash VARCHAR(255) NOT NULL,
@@ -44,38 +36,34 @@ CREATE TABLE IF NOT EXISTS users (
     admin BOOLEAN NOT NULL DEFAULT FALSE,
     active BOOLEAN NOT NULL DEFAULT TRUE,
     expiry_date DATETIME,
-    default_module INT UNSIGNED NOT NULL DEFAULT 101,
-    user_group_id INT UNSIGNED NOT NULL,
+    default_module INT NOT NULL DEFAULT 101,
+    user_group_id INT NOT NULL,
     PRIMARY KEY (id),
-    FOREIGN KEY (default_module)
-        REFERENCES modules(id) ON DELETE NO ACTION ON UPDATE NO ACTION,
     FOREIGN KEY (user_group_id)
         REFERENCES user_groups(id) ON DELETE CASCADE ON UPDATE NO ACTION,
-
     UNIQUE(email)
 );
 
 CREATE TABLE IF NOT EXISTS exercises (
-    id  INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    type INT UNSIGNED NOT NULL,
+    id  INT NOT NULL AUTO_INCREMENT,
+    type INT NOT NULL,
     statement VARCHAR(300) NOT NULL,
     solution VARCHAR(100) NOT NULL,
-    PRIMARY KEY (id),
-    FOREIGN KEY (type) REFERENCES modules(id) ON DELETE CASCADE ON UPDATE CASCADE
+    PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS user_module_index (
-    user_id INT UNSIGNED NOT NULL,
-    module_id INT UNSIGNED NOT NULL,
-    current_index INT UNSIGNED NOT NULL,
+    user_id INT NOT NULL,
+    module_id INT NOT NULL,
+    current_index INT NOT NULL,
     PRIMARY KEY (user_id, module_id),
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS user_exercise_activity (
-    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    user_id INT UNSIGNED NOT NULL,
-    exercise_id INT UNSIGNED NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    exercise_id INT NOT NULL,
     result INT NOT NULL,
     time DATETIME DEFAULT CURRENT_TIMESTAMP,
     raw_answer VARCHAR(100) NOT NULL,

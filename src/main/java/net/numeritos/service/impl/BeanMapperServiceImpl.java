@@ -1,4 +1,4 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import net.numeritos.dto.presentation.OrganizationDto;
 import net.numeritos.dto.presentation.UserDto;
 import net.numeritos.dto.presentation.UserExerciseActivityDto;
 import net.numeritos.dto.presentation.UserGroupDto;
-import net.numeritos.service.declaration.BeanMapperService;
+import net.numeritos.service.BeanMapperService;
 
 
 
@@ -84,6 +84,7 @@ public class BeanMapperServiceImpl implements BeanMapperService {
 		userDto.setId(user.getId());
 		userDto.setName(user.getName());
 		userDto.setSurname(user.getSurname());
+		userDto.setPasswordHash(user.getPasswordHash());
 		userDto.setEmail(user.getEmail());
 		userDto.setActive(user.isActive());
 		userDto.setAdmin(user.isAdmin());
@@ -104,6 +105,7 @@ public class BeanMapperServiceImpl implements BeanMapperService {
 		user.setId(userDto.getId());
 		user.setName(userDto.getName());
 		user.setSurname(userDto.getSurname());
+		user.setPasswordHash(userDto.getPasswordHash());
 		user.setEmail(userDto.getEmail());
 		user.setActive(userDto.isActive());
 		user.setAdmin(userDto.isAdmin());

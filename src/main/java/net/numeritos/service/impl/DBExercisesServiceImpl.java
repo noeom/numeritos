@@ -1,4 +1,4 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import java.sql.SQLException;
 import java.util.Date;
@@ -15,10 +15,10 @@ import net.numeritos.dto.db.ormlite.UserExerciseActivity;
 import net.numeritos.dto.db.ormlite.UserModuleIndex;
 import net.numeritos.dto.presentation.ExerciseDto;
 import net.numeritos.dto.presentation.UserDto;
-import net.numeritos.service.declaration.AnswerProcessingService;
-import net.numeritos.service.declaration.BeanMapperService;
-import net.numeritos.service.declaration.ExercisesService;
-import net.numeritos.service.declaration.ModulesService;
+import net.numeritos.service.AnswerProcessingService;
+import net.numeritos.service.BeanMapperService;
+import net.numeritos.service.ExercisesService;
+import net.numeritos.service.support.DBExerciseIndexCache;
 
 public @Data class DBExercisesServiceImpl implements ExercisesService {
 
@@ -32,14 +32,14 @@ public @Data class DBExercisesServiceImpl implements ExercisesService {
 	// User exercise activity DAO.
 	private Dao<UserExerciseActivity, Integer> userExerciseActivityDao;
 
-	// Modules service.
-	private ModulesService modulesService;
-	
 	// Answer processing service.
 	private AnswerProcessingService answerProcessingService;
 	
 	// Bean mapping service
 	private BeanMapperService beanMapperService;
+	
+	// Exercises index cache helper
+	private DBExerciseIndexCache exIdCache;
 	
 	@Override
 	public ExerciseDto getExerciseForUser(UserDto user) throws SQLException {
@@ -48,7 +48,8 @@ public @Data class DBExercisesServiceImpl implements ExercisesService {
 		int moduleIndex = this.getOrGenerateUserModuleIndex(user, user.getDefaultModule());
 		
 		// Get exercise.
-		return beanMapperService.map(exercisesDao.queryForId(moduleIndex + this.modulesService.getModuleById(user.getDefaultModule()).getStartIdx()));
+		return beanMapperService.map(exercisesDao.queryForId(this.exIdCache.getDBIdFromOffset(user.getDefaultModule(), moduleIndex)));
+		//return beanMapperService.map(exercisesDao.queryForId(moduleIndex + this.modulesService.getModuleById(user.getDefaultModule()).getStartIdx()));
 	}
 	
 	@Override
@@ -67,7 +68,7 @@ public @Data class DBExercisesServiceImpl implements ExercisesService {
 		userExerciseActivityDao.create(uea);
 		
 		// Update user exercise index.
-		int numExercises = this.modulesService.getExercisesInModule(exercise.getType());
+		int numExercises = this.exIdCache.getNumOfExercisesByType(exercise.getType());
 		
 		// Get module index (actually an offset)
 		int moduleIndex = this.getOrGenerateUserModuleIndex(user, user.getDefaultModule());
@@ -99,7 +100,7 @@ public @Data class DBExercisesServiceImpl implements ExercisesService {
 		}
 
 		// There is no module index. Create a new one.
-		int numExercises =  this.modulesService.getExercisesInModule(moduleId);
+		int numExercises =  this.exIdCache.getNumOfExercisesByType(moduleId);
 		int moduleIndex = ThreadLocalRandom.current().nextInt(0, numExercises);
 		
 		// And store it on the database.

@@ -202,11 +202,43 @@
 
 								<li class="list-group-item text-center"><@s.a
 									action="selectModule"> <@s.param name="moduleId" value="501"/>
-									<@s.text name="moduleList.first_deg_eq.transposition.title"/>
+									<@s.text name="moduleList.first_deg_eq.direct.title"/>
 									</@s.a><br />
 									<div class="text-muted fw-light"><@s.text
-										name="moduleList.first_deg_eq.transposition.desc"/></div>
+										name="moduleList.first_deg_eq.direct.desc"/></div>
 								</li>
+								
+								<li class="list-group-item text-center"><@s.a
+									action="selectModule"> <@s.param name="moduleId" value="502"/>
+									<@s.text name="moduleList.first_deg_eq.transposition.1.title"/>
+									</@s.a><br />
+									<div class="text-muted fw-light"><@s.text
+										name="moduleList.first_deg_eq.transposition.1.desc"/></div>
+								</li>
+								
+								<li class="list-group-item text-center"><@s.a
+									action="selectModule"> <@s.param name="moduleId" value="503"/>
+									<@s.text name="moduleList.first_deg_eq.transposition.2.title"/>
+									</@s.a><br />
+									<div class="text-muted fw-light"><@s.text
+										name="moduleList.first_deg_eq.transposition.2.desc"/></div>
+								</li>
+								
+								<li class="list-group-item text-center"><@s.a
+									action="selectModule"> <@s.param name="moduleId" value="504"/>
+									<@s.text name="moduleList.first_deg_eq.parenthesis.1.title"/>
+									</@s.a><br />
+									<div class="text-muted fw-light"><@s.text
+										name="moduleList.first_deg_eq.parenthesis.1.desc"/></div>
+								</li>
+								
+								<li class="list-group-item text-center"><@s.a
+									action="selectModule"> <@s.param name="moduleId" value="505"/>
+									<@s.text name="moduleList.first_deg_eq.parenthesis.2.title"/>
+									</@s.a><br />
+									<div class="text-muted fw-light"><@s.text
+										name="moduleList.first_deg_eq.parenthesis.2.desc"/></div>
+								</li>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							
 							</ul>
 						</div>
 					</div>

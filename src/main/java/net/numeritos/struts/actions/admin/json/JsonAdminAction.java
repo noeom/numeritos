@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.apache.struts2.interceptor.parameter.StrutsParameter;
 
-import com.opensymphony.xwork2.Action;
+import org.apache.struts2.action.Action;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -17,9 +17,9 @@ import net.numeritos.dto.db.ormlite.UserGroup;
 import net.numeritos.dto.presentation.ResultsDto;
 import net.numeritos.dto.presentation.UserDto;
 import net.numeritos.dto.presentation.UserResults;
-import net.numeritos.service.declaration.ExerciseActivityService;
-import net.numeritos.service.declaration.GroupsService;
-import net.numeritos.service.declaration.UsersService;
+import net.numeritos.service.ExerciseActivityService;
+import net.numeritos.service.GroupsService;
+import net.numeritos.service.UsersService;
 import net.numeritos.struts.actions.BaseAction;
 
 public class JsonAdminAction extends BaseAction {

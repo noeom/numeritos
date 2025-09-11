@@ -2,12 +2,12 @@ package net.numeritos.struts.actions;
 
 import org.apache.struts2.interceptor.parameter.StrutsParameter;
 
-import com.opensymphony.xwork2.Action;
+import org.apache.struts2.action.Action;
 
 import lombok.Getter;
 import lombok.Setter;
 import net.numeritos.dto.presentation.ResultsDto;
-import net.numeritos.service.declaration.ExerciseActivityService;
+import net.numeritos.service.ExerciseActivityService;
 
 public class JsonStatsAction extends BaseAction {
 
@@ -28,6 +28,8 @@ public class JsonStatsAction extends BaseAction {
 	@Setter(onMethod_={@StrutsParameter})
 	private int timeLapse;
 	
+	@Getter
+	@Setter
 	private ExerciseActivityService exerciseActivityService;
 
 	@Override

@@ -1,4 +1,4 @@
-package net.numeritos.service.declaration;
+package net.numeritos.service;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -7,6 +7,8 @@ import net.numeritos.dto.presentation.UserDto;
 
 public interface UsersService {
 
+	public void createUser(UserDto user) throws SQLException;
+	
 	public UserDto getUserByEmail(String email) throws SQLException;
 	
 	public UserDto getUserById(int id) throws SQLException;

@@ -3,7 +3,7 @@ package net.numeritos.struts.actions;
 import lombok.Getter;
 import lombok.Setter;
 import net.numeritos.dto.db.ormlite.UserGroup;
-import net.numeritos.service.declaration.GroupsService;
+import net.numeritos.service.GroupsService;
 
 public class UserSettingsAction extends BaseAction {
 

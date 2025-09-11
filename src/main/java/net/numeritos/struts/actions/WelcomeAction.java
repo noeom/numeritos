@@ -1,7 +1,7 @@
 package net.numeritos.struts.actions;
 
-import com.opensymphony.xwork2.Action;
-import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.action.Action;
+import org.apache.struts2.ActionSupport;
 
 public class WelcomeAction extends ActionSupport {
 

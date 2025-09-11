@@ -5,40 +5,41 @@
             http://www.springframework.org/schema/beans
             http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="service.beanMapperService" class="net.numeritos.service.implementation.BeanMapperServiceImpl">
+	<bean id="service.beanMapperService" class="net.numeritos.service.impl.BeanMapperServiceImpl">
 	</bean>	
 	
-	<bean id="service.answerProcessingService" class="net.numeritos.service.implementation.AnswerProcessingServiceImpl">
+	<bean id="service.answerProcessingService" class="net.numeritos.service.impl.AnswerProcessingServiceImpl">
 	</bean>	
 		
-	<bean id="service.cryptoService" class="net.numeritos.service.implementation.BCryptCryptoServiceImpl"/>
+	<bean id="service.cryptoService" class="net.numeritos.service.impl.BCryptCryptoServiceImpl"/>
 	
-	<bean id="service.ModulesService" class="net.numeritos.service.implementation.DBModulesServiceImpl" init-method="init">
-		<property name="modulesDao" ref="dao.modulesDao"/>	
-	</bean>
-	
-	<bean id="service.usersService" class="net.numeritos.service.implementation.DBUsersServiceImpl">
+	<bean id="service.usersService" class="net.numeritos.service.impl.DBUsersServiceImpl">
 		<property name="usersDao" ref="dao.usersDao"/>
-		<property name="modulesService" ref="service.ModulesService"/>
 		<property name="beanMapperService" ref="service.beanMapperService"/>
-		<property name="cryptoService" ref="service.cryptoService"/>			
+		<property name="cryptoService" ref="service.cryptoService"/>
+		<property name="exIdCache" ref="service.support.exerciseIndexCache"/>					
 	</bean>
 	
-	<bean id="service.groupsService" class="net.numeritos.service.implementation.DBGroupsServiceImpl">
+	<bean id="service.groupsService" class="net.numeritos.service.impl.DBGroupsServiceImpl">
 		<property name="groupsDao" ref="dao.groupsDao"/>
 	</bean>
 	
-	<bean id="service.exercisesService" class="net.numeritos.service.implementation.DBExercisesServiceImpl">
+	<bean id="service.exercisesService" class="net.numeritos.service.impl.DBExercisesServiceImpl">
 		<property name="exercisesDao" ref="dao.exercisesDao"/>
 		<property name="modIndexDao" ref="dao.moduleIndexDao"/>
 		<property name="userExerciseActivityDao" ref="dao.userExerciseActivityDao"/>
 		<property name="answerProcessingService" ref="service.answerProcessingService"/>
-		<property name="modulesService" ref="service.ModulesService"/>
 		<property name="beanMapperService" ref="service.beanMapperService"/>
+		<property name="exIdCache" ref="service.support.exerciseIndexCache"/>
 	</bean>
 	
-	<bean id="service.exerciseActivityService" class="net.numeritos.service.implementation.DBExerciseActivityServiceImpl">
+	<bean id="service.exerciseActivityService" class="net.numeritos.service.impl.DBExerciseActivityServiceImpl">
 		<property name="userExerciseActivityDao" ref="dao.userExerciseActivityDao"/>
+		<property name="exercisesDao" ref="dao.exercisesDao"/>
+	</bean>
+	
+	<!-- Support beans -->
+	<bean id="service.support.exerciseIndexCache" class="net.numeritos.service.support.DBExerciseIndexCache" init-method="init">
 		<property name="exercisesDao" ref="dao.exercisesDao"/>
 	</bean>
 

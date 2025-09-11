@@ -126,12 +126,12 @@ function loadTableData(jsonResult) {
 		
 		selectId = 'selecStudent' + item.id;
 		
-		trHTML = '<tr><td>' + item.name + '</td><td>' + item.surname + '</td><td>' + item.email + '</td>';
-		trHTML += '<td><button class="btn btn-warning me-2" onclick="passwordResetRequest('+ item.id +', \''+ item.name + '\')"><i class="fa-solid fa-arrow-rotate-right mx-1"></i><i class="fa-solid fa-lock mx-1"></i>1234abcd</button></td>';
-		trHTML += '<td><div class="input-group"><label class="input-group-text"><i class="fa-solid fa-users"></i></label>';
+		trHTML = '<tr><td class="align-middle">' + item.name + '</td><td class="align-middle">' + item.surname + '</td><td class="align-middle">' + item.email + '</td>';
+		trHTML += '<td class="align-middle"><button class="btn btn-warning me-2" onclick="passwordResetRequest('+ item.id +', \''+ item.name + '\')"><i class="fa-solid fa-arrow-rotate-right mx-1"></i><i class="fa-solid fa-lock mx-1"></i>1234abcd</button></td>';
+		trHTML += '<td class="align-middle"><div class="input-group"><label class="input-group-text"><i class="fa-solid fa-users"></i></label>';
 		trHTML += '<select class="form-select" onchange="changeGroup('+item.id+')" id="' + selectId +'">';	
 		trHTML += $("#groupSelect").clone().html();
-		trHTML += '</select>'
+		trHTML += '</select></div></td>'
 		trHTML += '</tr>';
 		tbody.append(trHTML);
 		

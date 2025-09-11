@@ -18,10 +18,10 @@ public abstract class ExerciseTypeConstants {
 	public static final int GENERATING_FRACTION_OPERATION = 403;
 	
 	// Equations
-	public static final int SIMPLE_TRANSPOSITION_EQUATION = 501;
-	public static final int SIMPLE_PARENTHESIS_EQUATION = 502;
-	public static final int SIMPLE_DENOMINATORS_EQUATION = 503;
-	public static final int MIXED_EASY_EQUATION = 504;
-	public static final int MIXED_REGULAR_EQUATION = 505;
+	public static final int SIMPLE_EQUATION = 501;
+	public static final int TRANSPOSITION_EQUATION_1 = 502;
+	public static final int TRANSPOSITION_EQUATION_2 = 503;
+	public static final int PARENTHESIS_EQUATION_1 = 504;
+	public static final int PARENTHESIS_EQUATION_2 = 505;
 
 }

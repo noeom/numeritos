@@ -15,11 +15,6 @@
 		<constructor-arg value="net.numeritos.dto.db.ormlite.UserGroup"/>
 	</bean>
 	
-	<bean id="dao.modulesDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
-		<constructor-arg ref="db.connectionSource"/>
-		<constructor-arg value="net.numeritos.dto.db.ormlite.Module"/>
-	</bean>
-	
 	<bean id="dao.moduleIndexDao" class="com.j256.ormlite.dao.DaoManager" factory-method="createDao">
 		<constructor-arg ref="db.connectionSource"/>
 		<constructor-arg value="net.numeritos.dto.db.ormlite.UserModuleIndex"/>

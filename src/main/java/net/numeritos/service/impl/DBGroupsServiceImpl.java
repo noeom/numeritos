@@ -1,4 +1,4 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -8,7 +8,7 @@ import com.j256.ormlite.dao.Dao;
 import lombok.Data;
 import net.numeritos.dto.db.ormlite.Organization;
 import net.numeritos.dto.db.ormlite.UserGroup;
-import net.numeritos.service.declaration.GroupsService;
+import net.numeritos.service.GroupsService;
 
 public @Data class DBGroupsServiceImpl implements GroupsService {
 

@@ -1,8 +1,8 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import org.mindrot.jbcrypt.BCrypt;
 
-import net.numeritos.service.declaration.CryptoService;
+import net.numeritos.service.CryptoService;
 
 public class BCryptCryptoServiceImpl implements CryptoService {
 

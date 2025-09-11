@@ -2,13 +2,13 @@ package net.numeritos.struts.actions;
 
 import java.util.List;
 
-import com.opensymphony.xwork2.Action;
+import org.apache.struts2.action.Action;
 
 import lombok.Getter;
 import lombok.Setter;
 import net.numeritos.dto.db.ormlite.UserGroup;
-import net.numeritos.service.declaration.GroupsService;
-import net.numeritos.service.declaration.UsersService;
+import net.numeritos.service.GroupsService;
+import net.numeritos.service.UsersService;
 
 public class AdminConsoleUsersAction extends BaseAction {
 	

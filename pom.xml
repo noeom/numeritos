@@ -14,15 +14,14 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
-    <struts2.version>7.0.0-M9</struts2.version>
+	<maven.compiler.release>21</maven.compiler.release>
+    <struts2.version>7.0.3</struts2.version>
     <log4j2.version>2.20.0</log4j2.version>
     <h2.version>2.3.232</h2.version>
 	<junit.version>4.13.2</junit.version>  
 	<ormlite.version>6.1</ormlite.version>
 	<lombok.version>1.18.34</lombok.version>
-	<javax.servlet.version>2.5</javax.servlet.version>
+	<jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
   </properties>
 
   <dependencies>
@@ -32,12 +31,6 @@
       <artifactId>junit</artifactId>
       <version>${junit.version}</version>
       <scope>test</scope>
-    </dependency>
-    
-    <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <version>${h2.version}</version>
     </dependency>    
     
     <dependency>
@@ -68,23 +61,7 @@
 	    <groupId>org.apache.struts</groupId>
 	    <artifactId>struts2-spring-plugin</artifactId>
 	    <version>${struts2.version}</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>mysql</groupId>
-	    <artifactId>mysql-connector-java</artifactId>
-	    <version>8.0.27</version>
-	    <!-- MySQL Connector/J should be provided by the server. Otherwise may cause a memory leak. -->
-		<scope>provided</scope>	    
-	</dependency>
-	
-	<dependency>
-	    <groupId>org.mariadb.jdbc</groupId>
-	    <artifactId>mariadb-java-client</artifactId>
-	    <version>3.0.7</version>
-	    <!-- MariaDB Connector/J should be provided by the server. Otherwise may cause a memory leak. -->
-		<scope>provided</scope>	    
-	</dependency>		
+	</dependency>	
 	
 	<dependency>
 	    <groupId>com.j256.ormlite</groupId>
@@ -107,11 +84,11 @@
 	</dependency>	
 	
 	<dependency>
-	    <groupId>javax.servlet</groupId>
-	    <artifactId>servlet-api</artifactId>
-	    <version>${javax.servlet.version}</version>
+	    <groupId>jakarta.servlet</groupId>
+	    <artifactId>jakarta.servlet-api</artifactId>
+	    <version>${jakarta.servlet-api.version}</version>
 	    <scope>provided</scope>
-	</dependency>  
+	</dependency> 
 
   </dependencies>
  

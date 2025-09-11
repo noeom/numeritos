@@ -7,9 +7,11 @@
 
 	<constant name="struts.custom.i18n.resources" value="global-messages" />
 	
-    <constant name="struts.devMode" value="true" />
+    <constant name="struts.devMode" value="${struts.devMode}" />
     
     <constant name="struts.ui.theme" value="simple" />
+    
+	<constant name="struts.allowlist.packageNames" value="net.numeritos.dto, net.numeritos.struts"/>
     
     <package name="numeritos-logout" extends="struts-default">
         <action name="logout" class="logoutAction">
@@ -19,7 +21,6 @@
     
     <package name="numeritos-default" extends="struts-default">
     	<interceptors>
-    	
 			<!-- Session authentication interceptor -->
     		<interceptor name="authenticationInterceptor" class="authenticationInterceptor"/>
 
@@ -129,6 +130,10 @@
 		<action name="adminDeleteGroup" class="adminConsoleGroupsAction" method="delete">
             <result name="success" type="redirectAction">adminConsoleGroups</result>
         </action>  
+        
+		<action name="adminLoadUsersFromFile" class="adminConsoleGroupsAction" method="addUsersFromFile">
+            <result name="success" type="freemarker">ftl/admin_console_groups.ftl</result>
+        </action>          
         
 		<action name="adminDownloadResults" class="jsonAdminAction" method="getResultsFile">
             <result name="success" type="stream">

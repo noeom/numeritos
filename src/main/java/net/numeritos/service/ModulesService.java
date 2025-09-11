@@ -1,4 +1,4 @@
-package net.numeritos.service.declaration;
+package net.numeritos.service;
 
 import net.numeritos.dto.db.ormlite.Module;
 

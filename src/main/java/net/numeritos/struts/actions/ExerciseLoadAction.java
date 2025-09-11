@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import net.numeritos.constants.SessionKeys;
 import net.numeritos.dto.presentation.ExerciseDto;
-import net.numeritos.service.declaration.ExercisesService;
+import net.numeritos.service.ExercisesService;
 
 public class ExerciseLoadAction extends BaseAction {
 

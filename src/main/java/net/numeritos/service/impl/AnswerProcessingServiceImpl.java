@@ -1,11 +1,11 @@
-package net.numeritos.service.implementation;
+package net.numeritos.service.impl;
 
 import net.numeritos.constants.ExerciseResult;
 import net.numeritos.dto.presentation.ExerciseDto;
 import net.numeritos.utils.math.Fraction;
 import net.numeritos.viewMapping.ExerciseTypeConstants;
 
-public class AnswerProcessingServiceImpl implements net.numeritos.service.declaration.AnswerProcessingService {
+public class AnswerProcessingServiceImpl implements net.numeritos.service.AnswerProcessingService {
 
 	@Override
 	public boolean validAnswerFormat(String answer, int exerciseType) {

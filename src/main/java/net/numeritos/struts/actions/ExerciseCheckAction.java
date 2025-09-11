@@ -2,15 +2,15 @@ package net.numeritos.struts.actions;
 
 import org.apache.struts2.interceptor.parameter.StrutsParameter;
 
-import com.opensymphony.xwork2.Action;
+import org.apache.struts2.action.Action;
 
 import lombok.Getter;
 import lombok.Setter;
 import net.numeritos.constants.ExerciseResult;
 import net.numeritos.constants.SessionKeys;
 import net.numeritos.dto.presentation.ExerciseDto;
-import net.numeritos.service.declaration.AnswerProcessingService;
-import net.numeritos.service.declaration.ExercisesService;
+import net.numeritos.service.AnswerProcessingService;
+import net.numeritos.service.ExercisesService;
 
 public class ExerciseCheckAction extends BaseAction {
 

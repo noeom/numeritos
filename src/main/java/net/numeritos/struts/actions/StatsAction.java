@@ -1,6 +1,6 @@
 package net.numeritos.struts.actions;
 
-import com.opensymphony.xwork2.Action;
+import org.apache.struts2.action.Action;
 
 public class StatsAction extends BaseAction {
 
