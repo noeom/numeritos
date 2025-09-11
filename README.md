@@ -9,6 +9,8 @@ numeritos.net is built with [Maven](https://maven.apache.org/). All dependencies
 
 and then deploy it on your favourite app server. We use [Tomcat](https://tomcat.apache.org/) for that matter.
 
+The numeritos.net webapp needs a database for data storage and retrieval, and this database must be provied by your application server as a Datasource. See the web.xml file for details on the database connector.
+
 ## Features
 Each student must authenticate using her corporate e-mail and custom password. The student's e-mail is kept private and **never** used for any purpose other than authentication. Her password is kept **encripted** in the database. Furthermore, the e-mail doesn't need to be a working e-mail, it's actually just an unique username. numeritos.net is leak proof!
 
