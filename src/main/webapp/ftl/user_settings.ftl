@@ -15,9 +15,10 @@
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
 
-<!-- Font awesome icons -->
-<script src="https://kit.fontawesome.com/c44605b5df.js"
-	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 
 </head>
 
@@ -39,7 +40,7 @@
 				<div class="card mt-4 shadow">
 				
 					<div class="card-header text-center">
-						<i class="fa-solid fa-circle-info fa-lg"></i>
+						<i class="bi bi-info-circle-fill h3"></i>
 						<@s.text name="userSettings.userInfo.title"/>
 					</div>
 					
@@ -55,12 +56,12 @@
 						<hr/>
 	
 						<p class="card-text">
-							<i class="fa-solid fa-landmark fa-lg"></i>
+							<i class="bi bi-building h3"></i>
 							<@s.property value="userGroup.organization.name"/>
 						</p>
 												
 						<p class="card-text">
-							<i class="fa-solid fa-users fa-lg"></i>
+							<i class="bi bi-people-fill h3"></i>
 								<@s.property value="userGroup.name"/>
 						</p>			
 						
@@ -69,19 +70,19 @@
 
 				<div class="card mt-4 shadow">
 					<div class="card-header text-center">
-						<i class="fa-solid fa-shield-halved fa-lg"></i> <@s.text name="userSettings.security.title"/>
+						<i class="bi bi-shield-shaded h3"></i> <@s.text name="userSettings.security.title"/>
 					</div>
 							<@s.form action="changePassword" class="card-body">
 							
 							<!-- Old password textbox -->
 							<div class="input-group mb-3">
-								<span class="input-group-text" id="basic-addon1"><i	class="fa-solid fa-key"></i></span>
+								<span class="input-group-text" id="basic-addon1"><i	class="bi bi-key-fill"></i></span>
 								<input type="password" name="oldPassword" class="form-control" placeholder="<@s.text name='userSettings.security.oldpwd.placeholder'/>" aria-label="<@s.text name='userSettings.security.oldpwd.placeholder'/>" aria-describedby="basic-addon1" required>
 							</div>
 
 							<!-- New password textbox -->
 							<div class="input-group mb-3">
-								<span class="input-group-text" id="basic-addon1"><i	class="fa-solid fa-key"></i></span>
+								<span class="input-group-text" id="basic-addon1"><i	class="bi bi-key-fill"></i></span>
 								<input type="password" name="newPassword" class="form-control" placeholder="<@s.text name='userSettings.security.newpwd.placeholder'/>" aria-label="<@s.text name='userSettings.security.newpwd.placeholder'/>" aria-describedby="basic-addon1" required>
 							</div>
 			

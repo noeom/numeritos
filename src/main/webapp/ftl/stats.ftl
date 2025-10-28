@@ -15,9 +15,10 @@
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
 
-<!-- Font awesome icons -->
-<script src="https://kit.fontawesome.com/c44605b5df.js"
-	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 	
 <!-- JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -50,7 +51,7 @@
 							
 				<div class="col-12 col-md-6 my-2">
 					<div class="input-group">
-					    <label for="exampleInputEmail1" class="input-group-text"><i class="fa-solid fa-cube"></i></label>
+					    <label for="exampleInputEmail1" class="input-group-text"><i class="bi bi-box"></i></label>
 						<select class="form-select" aria-label="Default select example" onchange="refreshTable()" id="moduleId">
 						  <#include "templates/modules_select_options.ftl">
 						</select>					
@@ -59,7 +60,7 @@
 
 				<div class="col-12 col-md-6 my-2">				
 					<div class="input-group">
-					    <label for="exampleInputEmail1" class="input-group-text"><i class="fa-solid fa-clock"></i></label>
+					    <label for="exampleInputEmail1" class="input-group-text"><i class="bi bi-clock-fill"></i></label>
 						<select class="form-select" id="timeLapse" name="timeLapse" onChange="refreshTable()">
 							<#include "templates/time_select_options.ftl">
 						</select>					

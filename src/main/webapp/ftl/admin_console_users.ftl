@@ -15,9 +15,9 @@
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
 
-<!-- Font awesome icons -->
-<script src="https://kit.fontawesome.com/c44605b5df.js"
-	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 	
 <!-- JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>	
@@ -36,13 +36,13 @@
 		<div class="col-2">
 			<div class="list-group shadow">
 				<@s.a action="adminConsole" class="list-group-item list-group-item-action">
-        			<i class="fa-solid fa-table-list mx-2"></i> <@s.text name="admin.section.results"/>
+        			<i class="bi bi-card-list mx-2"></i> <@s.text name="admin.section.results"/>
 				</@s.a>	
 				<@s.a action="adminConsoleGroups" class="list-group-item list-group-item-action">
-					<i class="fa-solid fa-users mx-2"></i> <@s.text name="admin.section.groups"/>
+					<i class="bi bi-people-fill mx-2"></i> <@s.text name="admin.section.groups"/>
 				</@s.a>	
 				<@s.a action="adminConsoleUsers" class="list-group-item list-group-item-action active">
-					<i class="fa-solid fa-user mx-2"></i> <@s.text name="admin.section.users"/>
+					<i class="bi bi-person-fill mx-2"></i> <@s.text name="admin.section.users"/>
 				</@s.a>
 		  	</div>
 		</div>
@@ -56,7 +56,7 @@
 			<div class="row border rounded-3 shadow pt-3 pb-3">
 				<div class="col-4">
 					<div class="input-group">
-					    <label for="exampleInputEmail1" class="input-group-text"><i class="fa-solid fa-users"></i></label>
+					    <label for="exampleInputEmail1" class="input-group-text"><i class="bi bi-people-fill"></i></label>
 						<select class="form-select" aria-label="Default select example" onchange="ajaxLoadTable()" id="groupSelect">
 						<@s.iterator value="groups">
 							<option value='<@s.property value = "id"/>'><@s.property value = "name"/></option>
@@ -127,8 +127,8 @@ function loadTableData(jsonResult) {
 		selectId = 'selecStudent' + item.id;
 		
 		trHTML = '<tr><td class="align-middle">' + item.name + '</td><td class="align-middle">' + item.surname + '</td><td class="align-middle">' + item.email + '</td>';
-		trHTML += '<td class="align-middle"><button class="btn btn-warning me-2" onclick="passwordResetRequest('+ item.id +', \''+ item.name + '\')"><i class="fa-solid fa-arrow-rotate-right mx-1"></i><i class="fa-solid fa-lock mx-1"></i>1234abcd</button></td>';
-		trHTML += '<td class="align-middle"><div class="input-group"><label class="input-group-text"><i class="fa-solid fa-users"></i></label>';
+		trHTML += '<td class="align-middle"><button class="btn btn-warning me-2" onclick="passwordResetRequest('+ item.id +', \''+ item.name + '\')"><i class="bi bi-arrow-clockwise mx-1"></i><i class="bi bi-lock-fill mx-1"></i>1234abcd</button></td>';
+		trHTML += '<td class="align-middle"><div class="input-group"><label class="input-group-text"><i class="bi bi-people-fill"></i></label>';
 		trHTML += '<select class="form-select" onchange="changeGroup('+item.id+')" id="' + selectId +'">';	
 		trHTML += $("#groupSelect").clone().html();
 		trHTML += '</select></div></td>'

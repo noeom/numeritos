@@ -15,8 +15,10 @@
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 		crossorigin="anonymous">
 	
-	<!-- Font awesome icons -->
-	<script src="https://kit.fontawesome.com/c44605b5df.js"	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 	
 	<!-- Mathjax -->
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -50,7 +52,7 @@
     				<!-- Answer submit form -->
     				<div class="text-center mt-4">
 						<@s.form action="exerciseLoad">
-							<button type="submit" class="btn btn-primary" autofocus><@s.text name="results.label.keep.going"/> <i class="fa-solid fa-circle-right fa-xl" title="Continuar"></i></button>
+							<button type="submit" class="btn btn-primary" autofocus><@s.text name="results.label.keep.going"/> <i class="bi bi-arrow-right-circle-fill" title="Continuar"></i></button>
 						</@s.form>
     				</div>
     							

@@ -15,9 +15,9 @@
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
 
-<!-- Font awesome icons -->
-<script src="https://kit.fontawesome.com/c44605b5df.js"
-	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 
 </head>
 
@@ -33,13 +33,13 @@
 		<div class="col-2">
 			<div class="list-group shadow">
 				<@s.a action="adminConsole" class="list-group-item list-group-item-action">
-        			<i class="fa-solid fa-table-list mx-2"></i> <@s.text name="admin.section.results"/>
+        			<i class="bi bi-card-list mx-2"></i> <@s.text name="admin.section.results"/>
 				</@s.a>	
 				<@s.a action="adminConsoleGroups" class="list-group-item list-group-item-action active">
-					<i class="fa-solid fa-users mx-2"></i> <@s.text name="admin.section.groups"/>
+					<i class="bi bi-people-fill mx-2"></i> <@s.text name="admin.section.groups"/>
 				</@s.a>	
 				<@s.a action="adminConsoleUsers" class="list-group-item list-group-item-action">
-					<i class="fa-solid fa-user mx-2"></i> <@s.text name="admin.section.users"/>
+					<i class="bi bi-person-fill mx-2"></i> <@s.text name="admin.section.users"/>
 				</@s.a>
 		  	</div>
 		</div>
@@ -57,7 +57,7 @@
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder='<@s.text name="admin.groups.placeholder.groupname"/>' name="groupName" required>
 						<button class="btn btn-primary" type="submit">
-					    	<i class="fa-solid fa-plus fa-xl mx-2"></i> <@s.text name="admin.groups.create"/>
+					    	<i class="bi bi-plus-lg mx-2"></i> <@s.text name="admin.groups.create"/>
 					    </button>
 					</div>		
 				</div>
@@ -91,16 +91,16 @@
 							    		<@s.if test="size==0">
 							    			<@s.form action="adminDeleteGroup">
 							    			<input type="hidden" name="groupId" value='<@s.property value = "id"/>'>
-							    			<button class="btn btn-danger" type="submit"><i class="fa-solid fa-trash-can mx-2"></i> <@s.text name="admin.groups.table.delete"/></button>
+							    			<button class="btn btn-danger" type="submit"><i class="bi bi-trash-fill mx-2"></i> <@s.text name="admin.groups.table.delete"/></button>
 							    			</@s.form>
 							    		</@s.if>
 							    		<@s.else>
-							    			<button class="btn btn-outline-secondary disabled"><i class="fa-solid fa-trash-can mx-2"></i> <@s.text name="admin.groups.table.delete"/></button>
+							    			<button class="btn btn-outline-secondary disabled"><i class="bi bi-trash-fill mx-2"></i> <@s.text name="admin.groups.table.delete"/></button>
 							    		</@s.else>
 							    		
 						    			<@s.form id="usersLoadForm" class="users-upload-form" action="adminLoadUsersFromFile" method="post" enctype="multipart/form-data">
 						    			<input type="hidden" name="groupId" value='<@s.property value = "id"/>'>
-						    			<button class="btn btn-primary users-upload-btn" type="button"><i class="fa-solid fa-file-import mx-2 m"></i> <@s.text name="admin.groups.table.addUsers"/></button>
+						    			<button class="btn btn-primary users-upload-btn" type="button"><i class="bi bi-file-earmark-arrow-up-fill mx-2 m"></i> <@s.text name="admin.groups.table.addUsers"/></button>
 						    			</@s.form>								    		
 							    	</td>
 							    </tr>

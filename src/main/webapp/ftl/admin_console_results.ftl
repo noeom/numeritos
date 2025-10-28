@@ -17,9 +17,9 @@
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
 
-<!-- Font awesome icons -->
-<script src="https://kit.fontawesome.com/c44605b5df.js"
-	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 
 <!-- JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -38,14 +38,14 @@
 		<div class="col-2">
 			<div class="list-group shadow">
 				<@s.a action="adminConsole" class="list-group-item list-group-item-action active">
-        			<i class="fa-solid fa-table-list mx-2"></i> <@s.text name="admin.section.results"/>
+        			<i class="bi bi-card-list mx-2"></i> <@s.text name="admin.section.results"/>
 				</@s.a>	
 				<@s.a action="adminConsoleGroups" class="list-group-item list-group-item-action">
-					<i class="fa-solid fa-users mx-2"></i> <@s.text name="admin.section.groups"/>
+					<i class="bi bi-people-fill mx-2"></i> <@s.text name="admin.section.groups"/>
 				</@s.a>	
 				<@s.a action="adminConsoleUsers" class="list-group-item list-group-item-action">
-					<i class="fa-solid fa-user mx-2"></i> <@s.text name="admin.section.users"/>
-				</@s.a>											
+					<i class="bi bi-person-fill mx-2"></i> <@s.text name="admin.section.users"/>
+				</@s.a>
 		  	</div>
 		</div>
 		
@@ -58,7 +58,7 @@
 			<@s.form action="adminDownloadResults" class="row border rounded-3 shadow pt-3 pb-3">					
 				<div class="col-3">
 					<div class="input-group">
-					    <label for="exampleInputEmail1" class="input-group-text"><i class="fa-solid fa-users"></i></label>
+					    <label for="exampleInputEmail1" class="input-group-text"><i class="bi bi-people-fill"></i></label>
 						<select class="form-select" id="groupId" name="groupId" onChange="getUsersResults()">
 						<@s.iterator value="groups">
 							<option value='<@s.property value = "id"/>'><@s.property value = "name"/></option>
@@ -69,7 +69,7 @@
 				
 				<div class="col-3">
 					<div class="input-group">
-					    <label for="exampleInputEmail1" class="input-group-text"><i class="fa-solid fa-cube"></i></label>
+					    <label for="exampleInputEmail1" class="input-group-text"><i class="bi bi-box"></i></label>
 						<select class="form-select" id="moduleId" name="moduleId" onChange="getUsersResults()">
 							<#include "templates/modules_select_options.ftl">
 						</select>					
@@ -78,7 +78,7 @@
 				
 				<div class="col-3">
 					<div class="input-group">
-					    <label for="exampleInputEmail1" class="input-group-text"><i class="fa-solid fa-clock"></i></label>
+					    <label for="exampleInputEmail1" class="input-group-text"><i class="bi bi-clock-fill"></i></label>
 						<select class="form-select" id="timeLapse" name="timeLapse" onChange="getUsersResults()">
 							<#include "templates/time_select_options.ftl">						
 						</select>					
@@ -87,12 +87,12 @@
 				
 				<div class="col-1 d-grid">
 					<input type="checkbox" class="btn-check" id="btn-check-autorefresh" autocomplete="off" onclick="autoRefresh()">
-					<label class="btn btn-outline-success" for="btn-check-autorefresh"><i id="img-autorefresh" class="fa-solid fa-arrow-rotate-right fa-xl mx-2"></i> Auto</label>				
+					<label class="btn btn-outline-success" for="btn-check-autorefresh"><i id="img-autorefresh" class="bi bi-arrow-clockwise mx-2"></i> Auto</label>				
 				</div>
 				<div class="col-2 d-grid">
 					
 						<button class="btn btn-primary" type="submit">
-							<i class="fa-solid fa-file-arrow-down fa-xl mx-2"></i> <@s.text name="admin.results.downloadCSV"/>
+							<i class="bi bi-file-earmark-arrow-down-fill mx-2"></i> <@s.text name="admin.results.downloadCSV"/>
 						</button>
 					
 				</div>				
@@ -197,10 +197,10 @@ function loadTableData(jsonResult) {
 function autoRefresh() {
 	if ($("#btn-check-autorefresh").prop('checked')) {
 		autoRefreshHandle = setInterval(getUsersResults, 5000);
-		$("#img-autorefresh").addClass("fa-spin");
+		//$("#img-autorefresh").addClass("fa-spin");
 	} else {
 		clearInterval(autoRefreshHandle);
-		$("#img-autorefresh").removeClass("fa-spin");
+		//$("#img-autorefresh").removeClass("fa-spin");
 	}
 }
 </script>

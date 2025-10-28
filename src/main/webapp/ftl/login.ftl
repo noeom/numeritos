@@ -15,9 +15,9 @@
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
 
-<!-- Font awesome icons -->
-<script src="https://kit.fontawesome.com/c44605b5df.js"
-	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 </head>
 
 <body>
@@ -42,15 +42,14 @@
 
 				<!-- Email textbox -->
 				<div class="input-group my-3">
-					<span class="input-group-text" id="basic-addon1"><i
-						class="fa-solid fa-envelope"></i></span> <input type="email" name="email"
+					<span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-fill"></i></span> <input type="email" name="email"
 						class="form-control" placeholder="<@s.text name='label.email'/>"
 						autofocus required>
 				</div>
 
 				<!-- Password textbox -->
 				<div class="input-group mb-3">
-					<span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-key"></i></span>
+					<span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></span>
 					<input type="password" name="password" class="form-control" placeholder="<@s.text name='label.password'/>"
 					required>
 				</div>

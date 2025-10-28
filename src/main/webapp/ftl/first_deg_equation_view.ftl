@@ -15,8 +15,10 @@
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 		crossorigin="anonymous">
 	
-	<!-- Font awesome icons -->
-	<script src="https://kit.fontawesome.com/c44605b5df.js"	crossorigin="anonymous"></script>
+<!-- Bootstrap icons -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+	crossorigin="anonymous">
 	
 	<!-- Mathjax -->
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -58,7 +60,7 @@
 						<div class="input-group mt-3">
 							<span class="input-group-text">\(\Large{x=}\)</span>
 							<input type="number" name="answer" class="form-control" autofocus>
-							<button type="submit" class="btn btn-primary"><i class="fa-solid fa-check" title="Comprobar solución"></i></button>
+							<button type="submit" class="btn btn-primary"><i class="bi bi-check-lg" title="Comprobar solución"></i></button>
 						</div>
 					</@s.form>
 								
