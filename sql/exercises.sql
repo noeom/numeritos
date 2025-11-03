@@ -3,6 +3,9 @@ source ex_data/102.sql
 source ex_data/103.sql
 source ex_data/201.sql
 source ex_data/202.sql
+source ex_data/210.sql
+source ex_data/211.sql
+source ex_data/212.sql
 source ex_data/301.sql
 source ex_data/501.sql
 source ex_data/502.sql

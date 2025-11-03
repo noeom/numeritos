@@ -9,7 +9,10 @@ public abstract class ExerciseTypeConstants {
 	
 	// Integers
 	public static final int SIMPLE_INTEGER_OPERATION = 201;
-	public static final int COMBINED_INTEGER_OPERATION = 202;
+    public static final int INTEGER_POWERS = 202;
+	public static final int COMBINED_INTEGER_OPERATION_1 = 210;
+	public static final int COMBINED_INTEGER_OPERATION_2 = 211;
+	public static final int COMBINED_INTEGER_OPERATION_3 = 212;
 	
 	// Fractions
 	public static final int SIMPLE_FRACTION_OPERATION = 301;

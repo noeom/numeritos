@@ -117,6 +117,29 @@
 									</@s.a><br />
 									<div class="text-muted fw-light"><@s.text
 										name="moduleList.integers.powers.desc"/></div>
+								</li>	
+								<li class="list-group-item text-center"><@s.a
+									action="selectModule"> <@s.param name="moduleId" value="210"/>
+									<@s.text name="moduleList.integers.combiOps1.title"/>
+									</@s.a><br />
+									<div class="text-muted fw-light"><@s.text
+										name="moduleList.integers.combiOps1.desc"/></div>
+								</li>
+								
+								<li class="list-group-item text-center"><@s.a
+									action="selectModule"> <@s.param name="moduleId" value="211"/>
+									<@s.text name="moduleList.integers.combiOps2.title"/>
+									</@s.a><br />
+									<div class="text-muted fw-light"><@s.text
+										name="moduleList.integers.combiOps2.desc"/></div>
+								</li>
+
+								<li class="list-group-item text-center"><@s.a
+									action="selectModule"> <@s.param name="moduleId" value="212"/>
+									<@s.text name="moduleList.integers.combiOps3.title"/>
+									</@s.a><br />
+									<div class="text-muted fw-light"><@s.text
+										name="moduleList.integers.combiOps3.desc"/></div>
 								</li>								
 							</ul>
 						</div>
