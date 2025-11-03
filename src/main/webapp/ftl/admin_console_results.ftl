@@ -197,10 +197,10 @@ function loadTableData(jsonResult) {
 function autoRefresh() {
 	if ($("#btn-check-autorefresh").prop('checked')) {
 		autoRefreshHandle = setInterval(getUsersResults, 5000);
-		//$("#img-autorefresh").addClass("fa-spin");
+		$("#img-autorefresh").addClass("bi-spin");
 	} else {
 		clearInterval(autoRefreshHandle);
-		//$("#img-autorefresh").removeClass("fa-spin");
+		$("#img-autorefresh").removeClass("bi-spin");
 	}
 }
 </script>

@@ -17,3 +17,13 @@
 .w-90 {width: 90%}
 .w-95 {width: 95%}
 .w-100 {width: 100%}
+
+.bi-spin {
+    display: inline-block;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
