@@ -13,6 +13,15 @@
 <option value="202">
 	<@s.text name="moduleList.category.integers"/> > <@s.text name="moduleList.integers.powers.title"/>
 </option>
+<option value="210">
+	<@s.text name="moduleList.category.integers"/> > <@s.text name="moduleList.integers.combiOps1.title"/>
+</option>
+<option value="211">
+	<@s.text name="moduleList.category.integers"/> > <@s.text name="moduleList.integers.combiOps2.title"/>
+</option>
+<option value="212">
+	<@s.text name="moduleList.category.integers"/> > <@s.text name="moduleList.integers.combiOps3.title"/>
+</option>
 <option value="301">
 	<@s.text name="moduleList.category.fractions"/> > <@s.text name="moduleList.fractions.simpleOps.title"/>
 </option>
