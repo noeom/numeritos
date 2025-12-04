@@ -167,17 +167,20 @@ function loadTableData(jsonResult) {
 		
 		total = item.results.right + item.results.wrong + item.results.nearly;
 		
-		rightPct = Math.round(100 * item.results.right / total);
-		nearlyPct = Math.round(100 * item.results.nearly / total);		
-		wrongPct = Math.round(100 * item.results.wrong / total);
-		
 		trHTML = '<tr>';
 		trHTML += '<td>' + item.name + ' ' + item.surname + '</td>';
 
 		if (total > 0) {
-			trHTML += '<td class="text-center text-success">' + item.results.right + '</td>';
-			trHTML += '<td class="text-center text-warning">' + item.results.nearly + '</td>';			
-			trHTML += '<td class="text-center text-danger">' + item.results.wrong + '</td>';
+		    rightPct = Math.round(100 * item.results.right / total);
+		    nearlyPct = Math.round(100 * item.results.nearly / total);		
+		    wrongPct = Math.round(100 * item.results.wrong / total);
+
+			trHTML += '<td class="text-center text-success"><span class="fw-bold">' + item.results.right +
+                '</span> <span class="text-secondary">('+ rightPct +'%)</span></td>';
+			trHTML += '<td class="text-center text-warning"><span class="fw-bold">' + item.results.nearly +
+                '</span>  <span class="text-secondary">('+ nearlyPct +'%)</span></td>';	
+			trHTML += '<td class="text-center text-danger"><span class="fw-bold">' + item.results.wrong +
+                '</span>  <span class="text-secondary">('+ wrongPct +'%)</span></td>';
 			trHTML += '<td class="text-center">' + total + '</td>';			
 			trHTML += '<td><div class="progress my-1">';
 			trHTML += '<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width:'+ rightPct +'%"></div>';
