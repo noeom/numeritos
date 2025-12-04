@@ -69,7 +69,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (210, '6:(-1+4) - 6', '
 INSERT INTO exercises (type, statement, solution) VALUES (210, '\\left[6+(-8) - (-1)\\right] \\cdot 5', '-5');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '(6-9) \\cdot (7-10)', '9');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '(-4-4):(-2) \\cdot (-1)', '-4');
-INSERT INTO exercises (type, statement, solution) VALUES (210, '-4-4:(-2) \\cdot (-1)', '2');
+INSERT INTO exercises (type, statement, solution) VALUES (210, '-4-4:(-2) \\cdot (-1)', '-6');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '10 :(-4-1) - 5', '-7');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '\\left[(-8+6) - (-2)\\right] \\cdot 8', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '8 : (-6-2) + 9', '8');
@@ -105,7 +105,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (210, '\\left[6-(-2)\\r
 INSERT INTO exercises (type, statement, solution) VALUES (210, '\\left[6-(-2):(-2)\\right] \\cdot (-2)', '-10');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '8 - 10 \\cdot 2 + 5', '-7');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '6:(-5-1) +6', '5');
-INSERT INTO exercises (type, statement, solution) VALUES (210, '- 5 - (+2 - 8) : (-2)', '-2');
+INSERT INTO exercises (type, statement, solution) VALUES (210, '- 5 - (+2 - 8) : (-2)', '-8');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '4 \\cdot (-2-1) - 1', '-13');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '\\left[10 - (+11)\\right] \\cdot (-2 + 7)', '-5');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '-4 : (5 - 9) - 4', '-3');
@@ -120,7 +120,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (210, '(-5-5) : (4 -5)'
 INSERT INTO exercises (type, statement, solution) VALUES (210, '10:(-2-3) - 5', '-7');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '8:(-4) - (-1) - 1', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '4 \\cdot (-2) \\cdot 2 : (-8)', '2');
-INSERT INTO exercises (type, statement, solution) VALUES (210, '2 - ( -4 +8) - 1', '- 3');
+INSERT INTO exercises (type, statement, solution) VALUES (210, '2 - ( -4 +8) - 1', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '-6:(-6) + \\left[5 \\cdot (-2)\\right]', '-9');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '4 - 14 -8 \\cdot (-2)', '6');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '\\left[5 - (+2 - 9)\\right] : (-2)', '-6');
@@ -141,12 +141,12 @@ INSERT INTO exercises (type, statement, solution) VALUES (210, '-5 -(+ 4) + (-2 
 INSERT INTO exercises (type, statement, solution) VALUES (210, '-2 - 4 \\cdot 2 + 9', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '4 \\cdot (-7 + 3) + 9', '-7');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '-(+9) -1 \\cdot (-8) - 5', '-6');
-INSERT INTO exercises (type, statement, solution) VALUES (210, '8 - 7 \\cdot 2 + 11', '8');
+INSERT INTO exercises (type, statement, solution) VALUES (210, '8 - 7 \\cdot 2 + 11', '5');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '\\left[-(-3) - 4 \\cdot 2\\right] : (-5)', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '-(+4)-6+(-1) \\cdot 4', '-14');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '2 - 2 \\cdot (-2) - 20', '-14');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '-3-\\left[8:(-4)\\right] - 10', '-11');
-INSERT INTO exercises (type, statement, solution) VALUES (210, '6:(-3) - 2 \\cdot 2', '2');
+INSERT INTO exercises (type, statement, solution) VALUES (210, '6:(-3) - 2 \\cdot 2', '-6');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '-4:(2-4) -4', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '(-6+11) \\cdot (-1) + 1', '-4');
 INSERT INTO exercises (type, statement, solution) VALUES (210, '12:(-3-1) +6', '3');

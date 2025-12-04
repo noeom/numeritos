@@ -142,7 +142,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}+\\frac{-2}{5}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\frac{4}{3}', '\\frac{9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}+\\frac{5}{4}', '\\frac{3}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8}:\\frac{9}{2}', '\\frac{-1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{5}{2}', '\\frac{3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}-\\frac{-7}{5}', '\\frac{14}{5}');
@@ -175,7 +175,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}:\\frac{1}{2}', '\\frac{1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6} \\times \\frac{-6}{7}', '\\frac{-5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}:\\frac{1}{2}', '1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}+\\frac{-9}{2}', '-5');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}-\\frac{-1}{3}', '\\frac{7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}:\\frac{9}{2}', '\\frac{-2}{15}');
@@ -204,7 +204,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}:\\frac{-9}{5}', '\\frac{5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\frac{1}{4}', '\\frac{8}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}:\\frac{7}{8}', '\\frac{3}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{5}{9}', '\\frac{-5}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}:\\frac{-4}{9}', '\\frac{15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{1}{4}', '\\frac{-3}{2}');
@@ -231,11 +231,11 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}:\\frac{1}{7}', '-4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}-\\frac{-1}{6}', '\\frac{-1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7}:\\frac{3}{2}', '\\frac{-2}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}:\\frac{-2}{3}', '\\frac{9}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8}+\\frac{7}{8}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{7}{8}', '\\frac{5}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}-\\frac{-1}{2}', '\\frac{11}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8}:\\frac{-9}{8}', '\\frac{1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}:\\frac{1}{6}', '\\frac{-2}{3}');
@@ -290,7 +290,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{4}{3}', '\\frac{-7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}-\\frac{1}{8}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6} \\times \\frac{-3}{4}', '\\frac{-7}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7} \\times \\frac{7}{5}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}+\\frac{7}{3}', '\\frac{11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{-7}{9}', '\\frac{3}{14}');
@@ -491,7 +491,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7}:\\frac{2}{5}', '\\frac{-5}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}-\\frac{-8}{3}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}-\\frac{-5}{3}', '\\frac{7}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\frac{5}{8}', '\\frac{12}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}+\\frac{-7}{6}', '\\frac{4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}+\\frac{7}{3}', '\\frac{-7}{6}');
@@ -523,15 +523,15 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}-\\frac{1}{2}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{7}{2}', '\\frac{7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}-\\frac{-8}{3}', '\\frac{13}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}+\\frac{5}{2}', '\\frac{1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}:\\frac{-5}{8}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}:\\frac{8}{7}', '\\frac{-7}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\frac{5}{2}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{1}{5}', '\\frac{-9}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}+\\frac{0}{-1}', '\\frac{-4}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3} \\times \\frac{3}{8}', '\\frac{-7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}-\\frac{5}{6}', '\\frac{-1}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3} \\times \\frac{3}{4}', '2');
@@ -540,7 +540,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}+\\frac{-5}{3}', '\\frac{-8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}+\\frac{-5}{8}', '\\frac{-15}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}:\\frac{1}{7}', '-8');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}-\\frac{-3}{4}', '\\frac{-15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}-\\frac{9}{8}', '\\frac{-15}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}+\\frac{-7}{6}', '-2');
@@ -548,7 +548,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}+\\frac{7}{4}', '\\frac{-11}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}-\\frac{-1}{3}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}+\\frac{3}{4}', '\\frac{-7}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}:\\frac{7}{3}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}-\\frac{9}{8}', '\\frac{5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4} \\times \\frac{8}{7}', '\\frac{10}{7}');
@@ -558,7 +558,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5} \\times \\frac{1}{9}', '\\frac{2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}-\\frac{-5}{9}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}-\\frac{-2}{9}', '\\frac{-1}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}+\\frac{-4}{3}', '\\frac{-8}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}-\\frac{-7}{5}', '\\frac{9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}:\\frac{-5}{7}', '\\frac{2}{5}');
@@ -711,7 +711,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7} \\times \\frac{-1}{4}', '\\frac{1}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}-\\frac{-9}{2}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}:\\frac{1}{8}', '-14');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9} \\times \\frac{9}{2}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8}-\\frac{5}{4}', '\\frac{-1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8} \\times \\frac{-2}{7}', '\\frac{-1}{4}');
@@ -720,7 +720,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}-\\frac{-7}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9}:\\frac{-1}{5}', '\\frac{10}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}-\\frac{3}{2}', '\\frac{-11}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}-\\frac{-5}{6}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}:\\frac{-7}{5}', '\\frac{5}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{3}{8}', '\\frac{3}{5}');
@@ -800,7 +800,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7} \\times \\frac{9}{8}', '\\frac{-9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7}:\\frac{-1}{7}', '-4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}+\\frac{-7}{4}', '\\frac{1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\frac{8}{7}', '\\frac{-7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}-\\frac{-5}{9}', '\\frac{4}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}+\\frac{9}{2}', '\\frac{13}{4}');
@@ -873,7 +873,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}+\\frac{-7}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{3}{4}', '\\frac{6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{5}{6}', '\\frac{5}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{-4}{9}', '\\frac{-2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}-\\frac{-1}{2}', '\\frac{13}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}-\\frac{8}{7}', '\\frac{-10}{7}');
@@ -921,8 +921,8 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}+\\frac{7}{6}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\frac{-1}{7}', '\\frac{-14}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}:\\frac{-1}{5}', '-7');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-6}{7}', '\\frac{0}{-1}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-6}{7}', '0');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}:\\frac{7}{5}', '\\frac{-5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{2}{5}', '\\frac{-7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}:\\frac{8}{9}', '1');
@@ -993,7 +993,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7} \\times \\frac{1}{3}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{-7}{4}', '\\frac{-5}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}-\\frac{-4}{3}', '\\frac{5}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{6}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{6}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}:\\frac{-1}{2}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}:\\frac{-9}{4}', '\\frac{-1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}:\\frac{-9}{8}', '\\frac{2}{3}');
@@ -1142,7 +1142,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{-5}{2}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}:\\frac{7}{6}', '\\frac{-4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}+\\frac{-5}{2}', '\\frac{-7}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4} \\times \\frac{-7}{9}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5} \\times \\frac{-5}{6}', '\\frac{4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}-\\frac{-1}{9}', '\\frac{7}{9}');
@@ -1171,7 +1171,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}-\\frac{-1}{5}', '\\frac{8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}:\\frac{-5}{2}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7}-\\frac{-4}{7}', '\\frac{12}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}+\\frac{5}{4}', '\\frac{7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}:\\frac{-2}{7}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{4}{3}', '\\frac{8}{9}');
@@ -1243,7 +1243,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\frac{5}{9}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{-2}{3}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{1}{3}', '\\frac{9}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6} \\times \\frac{-6}{5}', '\\frac{-1}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{-8}{7}', '\\frac{8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\times \\frac{3}{2}', '\\frac{-3}{8}');
@@ -1360,7 +1360,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{4}{3}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}:\\frac{5}{3}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\frac{-8}{7}', '\\frac{-7}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{3}{8}', '\\frac{8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}+\\frac{-4}{3}', '\\frac{11}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}-\\frac{-7}{6}', '\\frac{1}{3}');
@@ -1385,7 +1385,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}-\\frac{9}{4}', '\\frac{-5}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}-\\frac{-5}{2}', '6');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3} \\times \\frac{-7}{5}', '\\frac{-7}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}:\\frac{3}{2}', '\\frac{5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5}-\\frac{1}{5}', '\\frac{3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}-\\frac{-5}{2}', '\\frac{7}{3}');
@@ -1495,7 +1495,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}+\\frac{5}{4}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}-\\frac{2}{9}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}-\\frac{1}{2}', '\\frac{-3}{14}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}+\\frac{0}{-1}', '\\frac{5}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}-\\frac{-3}{2}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5} \\times \\frac{3}{8}', '\\frac{-3}{5}');
@@ -1554,7 +1554,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9} \\times \\frac{-3}{2}', '\\frac{-2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}-\\frac{2}{5}', '\\frac{-6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{-1}{3}', '\\frac{-7}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}:\\frac{2}{7}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}:\\frac{7}{2}', '\\frac{-2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{-9}{7}', '\\frac{9}{7}');
@@ -1592,7 +1592,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4} \\times \\frac{-8}{5}', '\\frac{-14}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}+\\frac{-1}{9}', '\\frac{-5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}-\\frac{1}{9}', '\\frac{-4}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8}:\\frac{-7}{8}', '\\frac{9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}:\\frac{-4}{7}', '\\frac{-7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\times \\frac{-7}{5}', '\\frac{-7}{2}');
@@ -1602,10 +1602,10 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{-3}{5}', '\\frac{-2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\times \\frac{-1}{4}', '\\frac{3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}:\\frac{-1}{8}', '-1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9}:\\frac{-5}{2}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}:\\frac{6}{5}', '\\frac{3}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}-\\frac{3}{8}', '\\frac{3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7}:\\frac{-8}{3}', '\\frac{-3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}:\\frac{1}{6}', '\\frac{-15}{4}');
@@ -1698,11 +1698,11 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7}:\\frac{2}{3}', '\\frac{-9}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{1}{2}', '\\frac{-2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{1}{2}', '\\frac{6}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}-\\frac{-1}{3}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}-\\frac{-1}{3}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\frac{-8}{3}', '-5');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7} \\times \\frac{1}{2}', '\\frac{3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3} \\times \\frac{-1}{2}', '\\frac{2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}-\\frac{7}{6}', '\\frac{13}{12}');
@@ -1767,7 +1767,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}-\\frac{5}{7}', '\\frac{-3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}:\\frac{-5}{6}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5} \\times \\frac{2}{3}', '\\frac{-14}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9}:\\frac{4}{9}', '\\frac{-5}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}-\\frac{-8}{3}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}-\\frac{4}{9}', '\\frac{-10}{9}');
@@ -1922,7 +1922,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}-\\frac{-5}{4}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}+\\frac{-1}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{-5}{6}', '\\frac{5}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5}:\\frac{-1}{5}', '-4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8} \\times \\frac{7}{3}', '\\frac{7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\frac{7}{3}', '\\frac{8}{3}');
@@ -1945,7 +1945,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}:\\frac{-1}{4}', '\\frac{-8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\frac{4}{9}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2} \\times \\frac{-1}{2}', '\\frac{-7}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{-9}{2}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{-5}{6}', '\\frac{-5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}-\\frac{1}{3}', '\\frac{5}{6}');
@@ -2039,12 +2039,12 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{-4}{5}', '\\frac{2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}-\\frac{-9}{8}', '\\frac{7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}-\\frac{0}{-1}', '\\frac{5}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}-\\frac{0}{-1}', '\\frac{7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}:\\frac{7}{2}', '\\frac{-9}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{-1}{6}', '\\frac{9}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}:\\frac{-1}{4}', '\\frac{-4}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{1}{2}', '\\frac{8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{-1}{9}', '\\frac{1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}+\\frac{8}{5}', '\\frac{11}{10}');
@@ -2078,7 +2078,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}+\\frac{-7}{9}', '\\frac{8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{7}{9}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}:\\frac{1}{6}', '-7');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{-6}{7}', '\\frac{-9}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}-\\frac{9}{8}', '\\frac{11}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5} \\times \\frac{7}{4}', '\\frac{-14}{5}');
@@ -2207,7 +2207,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}+\\frac{-5}{2}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}+\\frac{7}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}-\\frac{-4}{3}', '\\frac{-11}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}:\\frac{9}{7}', '\\frac{-8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\times \\frac{5}{6}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8} \\times \\frac{8}{7}', '\\frac{-1}{7}');
@@ -2236,7 +2236,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5} \\times \\frac{-3}{4}', '\\frac{-3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}+\\frac{-4}{3}', '\\frac{-13}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7} \\times \\frac{-7}{5}', '\\frac{-3}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{-8}{7}', '\\frac{-3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}-\\frac{4}{7}', '\\frac{-6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}:\\frac{7}{3}', '\\frac{-3}{8}');
@@ -2277,7 +2277,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}:\\frac{-7}{9}', '\\frac{-3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}-\\frac{-2}{3}', '\\frac{5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{-4}{3}', '\\frac{-1}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}+\\frac{-9}{4}', '\\frac{-13}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{1}{3}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}-\\frac{-6}{5}', '\\frac{7}{5}');
@@ -2286,7 +2286,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\times \\frac{-3}{7}', '\\frac{1}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}+\\frac{1}{9}', '\\frac{7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}+\\frac{3}{4}', '3');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5} \\times \\frac{2}{3}', '\\frac{6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\times \\frac{-2}{3}', '\\frac{1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{8}{5}', '\\frac{-8}{15}');
@@ -2585,7 +2585,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}:\\frac{-8}{5}', '\\frac{-9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}:\\frac{-2}{9}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{-1}{2}', '\\frac{7}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{-5}{8}', '\\frac{12}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5} \\times \\frac{-5}{3}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6} \\times \\frac{-3}{4}', '\\frac{5}{8}');
@@ -2603,7 +2603,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\frac{8}{9}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}-\\frac{7}{3}', '\\frac{-14}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}-\\frac{8}{5}', '-1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\times \\frac{-3}{2}', '\\frac{3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}+\\frac{-1}{6}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8}-\\frac{-1}{8}', '0');
@@ -2613,7 +2613,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{9}{8}', '\\frac{9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{-3}{2}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{-9}{7}', '\\frac{-9}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}:\\frac{-5}{4}', '\\frac{-9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}:\\frac{-9}{5}', '\\frac{2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\frac{2}{9}', '\\frac{3}{2}');
@@ -2634,7 +2634,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}+\\frac{5}{6}', '\\frac{-11}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}+\\frac{-9}{5}', '\\frac{7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}+\\frac{3}{4}', '\\frac{9}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}+\\frac{-1}{8}', '\\frac{13}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}:\\frac{-4}{9}', '\\frac{-9}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4} \\times \\frac{-4}{3}', '\\frac{-7}{3}');
@@ -2655,7 +2655,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}+\\frac{5}{2}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{6}{7}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{-2}{3}', '\\frac{1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{7}{4}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}:\\frac{7}{6}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8}:\\frac{-9}{2}', '\\frac{-1}{4}');
@@ -2673,9 +2673,9 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7} \\times \\frac{7}{5}', '\\frac{-6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{6}{7}', '\\frac{3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{5}{3}', '\\frac{-1}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}:\\frac{-2}{7}', '\\frac{-1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7}+\\frac{-8}{7}', '\\frac{-4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{1}{2}', '\\frac{5}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}:\\frac{9}{8}', '\\frac{-5}{9}');
@@ -2732,7 +2732,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}-\\frac{-1}{3}', '\\frac{11}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{-3}{7}', '\\frac{1}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}:\\frac{3}{2}', '\\frac{-1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2} \\times \\frac{-4}{7}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}-\\frac{1}{4}', '\\frac{5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3}:\\frac{-1}{3}', '-8');
@@ -2755,7 +2755,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}:\\frac{-1}{7}', '\\frac{-7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}+\\frac{1}{2}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8} \\times \\frac{2}{5}', '\\frac{1}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{-5}{8}', '\\frac{-5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\times \\frac{-7}{3}', '\\frac{4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}:\\frac{-6}{7}', '-1');
@@ -2769,7 +2769,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}+\\frac{-5}{4}', '\\frac{-11}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{2}{7}', '\\frac{3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{-4}{9}', '2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}+\\frac{-8}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8} \\times \\frac{-4}{3}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{-2}{5}', '\\frac{-2}{5}');
@@ -2828,7 +2828,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}+\\frac{2}{5}', '\\frac{11}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{-3}{7}', '\\frac{-15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{7}{2}', '\\frac{5}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}:\\frac{-8}{5}', '\\frac{9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}:\\frac{7}{5}', '\\frac{-9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}+\\frac{1}{6}', '\\frac{-1}{3}');
@@ -2853,7 +2853,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3}:\\frac{-8}{9}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}-\\frac{-3}{2}', '\\frac{2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{7}{5}', '\\frac{7}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}-\\frac{4}{9}', '\\frac{4}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{9}{2}', '\\frac{-9}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}-\\frac{-3}{4}', '\\frac{7}{8}');
@@ -2884,7 +2884,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{7}{8}', '\\frac{-7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}:\\frac{4}{9}', '\\frac{15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}+\\frac{1}{2}', '\\frac{11}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9} \\times \\frac{3}{2}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}+\\frac{-1}{9}', '\\frac{1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7}:\\frac{4}{5}', '\\frac{5}{7}');
@@ -2939,7 +2939,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7} \\times \\frac{-4}{3}', '\\frac{8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\frac{8}{9}', '\\frac{11}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\times \\frac{-4}{5}', '\\frac{8}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8}:\\frac{-9}{8}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8}:\\frac{7}{8}', '\\frac{-9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}:\\frac{4}{3}', '\\frac{1}{6}');
@@ -2947,10 +2947,10 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}:\\frac{-5}{3}', '\\frac{-8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-2}{5}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5} \\times \\frac{-8}{3}', '\\frac{8}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9}-\\frac{-5}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}:\\frac{-4}{3}', '\\frac{-1}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{9}{4}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8} \\times \\frac{-8}{3}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}-\\frac{-3}{8}', '\\frac{-3}{8}');
@@ -3009,13 +3009,13 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{8}{5}', '\\frac{-1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}:\\frac{3}{4}', '-6');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{1}{5}', '\\frac{3}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6} \\times \\frac{5}{7}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}:\\frac{-5}{6}', '\\frac{3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{1}{6}', '\\frac{-9}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}+\\frac{9}{8}', '\\frac{7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}+\\frac{9}{2}', '\\frac{13}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}-\\frac{7}{2}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}-\\frac{4}{7}', '\\frac{-1}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\times \\frac{7}{8}', '\\frac{9}{8}');
@@ -3037,7 +3037,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{-2}{9}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}+\\frac{-5}{2}', '\\frac{-11}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}-\\frac{-3}{4}', '\\frac{-11}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}-\\frac{1}{4}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}+\\frac{-9}{2}', '\\frac{-13}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7} \\times \\frac{5}{2}', '\\frac{-5}{14}');
@@ -3049,17 +3049,17 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}+\\frac{4}{7}', '\\frac{9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\frac{7}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5} \\times \\frac{-9}{4}', '\\frac{9}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}:\\frac{-5}{2}', '\\frac{9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\times \\frac{-3}{7}', '\\frac{2}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}:\\frac{7}{8}', '\\frac{8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8} \\times \\frac{-8}{9}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\times \\frac{7}{3}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{-5}{6}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{-5}{6}', '\\frac{-15}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}+\\frac{-9}{7}', '\\frac{-6}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}:\\frac{-7}{3}', '\\frac{-3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}:\\frac{2}{9}', '-12');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{4}{5}', '\\frac{-5}{12}');
@@ -3119,7 +3119,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}-\\frac{-4}{5}', '\\frac{1}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}:\\frac{-3}{5}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}:\\frac{1}{8}', '\\frac{8}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}:\\frac{-7}{4}', '\\frac{-2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\frac{3}{2}', '\\frac{7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}-\\frac{3}{7}', '\\frac{-5}{7}');
@@ -3129,7 +3129,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\times \\frac{-5}{3}', '\\frac{5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7}:\\frac{-6}{7}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}-\\frac{-3}{2}', '\\frac{13}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\frac{2}{5}', '\\frac{10}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\times \\frac{-7}{6}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}:\\frac{-7}{6}', '\\frac{-2}{3}');
@@ -3212,7 +3212,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5} \\times \\frac{-8}{3}', '\\frac{8}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{-9}{7}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}+\\frac{3}{8}', '\\frac{-11}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{5}{3}', '\\frac{5}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}+\\frac{-1}{2}', '\\frac{11}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3} \\times \\frac{1}{4}', '\\frac{1}{3}');
@@ -3326,7 +3326,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}:\\frac{-6}{5}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}-\\frac{1}{6}', '\\frac{-11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}+\\frac{7}{3}', '\\frac{13}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\frac{1}{5}', '\\frac{15}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{4}{5}', '\\frac{-4}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}-\\frac{-7}{5}', '\\frac{13}{5}');
@@ -3514,7 +3514,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{-3}{2}', '\\frac{-12}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}+\\frac{-1}{2}', '\\frac{-9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{5}{6}', '\\frac{2}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}:\\frac{7}{9}', '\\frac{-15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}:\\frac{-2}{3}', '\\frac{7}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}:\\frac{1}{3}', '\\frac{-9}{4}');
@@ -3639,7 +3639,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3} \\times \\frac{4}{5}', '\\frac{4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5} \\times \\frac{1}{3}', '\\frac{1}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}-\\frac{4}{5}', '\\frac{-7}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}:\\frac{1}{3}', '\\frac{9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}-\\frac{-1}{8}', '\\frac{11}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}+\\frac{-9}{8}', '\\frac{5}{8}');
@@ -3793,7 +3793,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{-7}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}-\\frac{1}{7}', '\\frac{1}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}+\\frac{-1}{2}', '\\frac{1}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\frac{5}{6}', '\\frac{2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2} \\times \\frac{-3}{2}', '\\frac{15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}-\\frac{-7}{3}', '\\frac{7}{12}');
@@ -3827,7 +3827,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}+\\frac{4}{5}', '\\frac{7}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3} \\times \\frac{1}{6}', '\\frac{-2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}+\\frac{2}{7}', '\\frac{-3}{14}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}+\\frac{7}{4}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{-1}{4}', '\\frac{-1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\times \\frac{3}{5}', '\\frac{-2}{5}');
@@ -3856,7 +3856,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}-\\frac{-3}{2}', '\\frac{7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3} \\times \\frac{9}{8}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\frac{-9}{7}', '\\frac{-7}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}+\\frac{3}{4}', '\\frac{-5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}:\\frac{-7}{6}', '\\frac{10}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}-\\frac{-4}{3}', '\\frac{11}{9}');
@@ -3925,7 +3925,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}:\\frac{-7}{4}', '\\frac{-5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}+\\frac{9}{8}', '\\frac{-3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\frac{-4}{3}', '\\frac{-7}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}:\\frac{3}{2}', '\\frac{-7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}:\\frac{-1}{8}', '-7');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}+\\frac{-3}{5}', '\\frac{6}{5}');
@@ -3964,7 +3964,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}+\\frac{9}{2}', '\\frac{11}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}-\\frac{-1}{2}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8} \\times \\frac{4}{5}', '\\frac{-7}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}:\\frac{7}{6}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5} \\times \\frac{-3}{2}', '\\frac{-6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{-1}{2}', '\\frac{1}{4}');
@@ -3998,7 +3998,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7}:\\frac{-8}{7}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2} \\times \\frac{-4}{3}', '\\frac{10}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7}-\\frac{9}{7}', '\\frac{-15}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}:\\frac{2}{5}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}:\\frac{-2}{7}', '\\frac{7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{-1}{9}', '\\frac{-1}{4}');
@@ -4068,7 +4068,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}:\\frac{-5}{6}', '\\frac{-6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}:\\frac{-9}{8}', '\\frac{-2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}+\\frac{0}{-1}', '\\frac{7}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{-9}{4}', '\\frac{1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{-8}{3}', '\\frac{-8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{1}{6}', '-1');
@@ -4263,7 +4263,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}-\\frac{1}{2}', '\\frac{-1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}-\\frac{-8}{9}', '\\frac{7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}+\\frac{-3}{8}', '-1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}+\\frac{3}{2}', '\\frac{1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{1}{6}', '\\frac{-1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}-\\frac{-5}{3}', '\\frac{7}{9}');
@@ -4293,7 +4293,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7} \\times \\frac{7}{9}', '\\frac{-2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}:\\frac{2}{3}', '\\frac{-6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\frac{-4}{9}', '\\frac{-1}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}:\\frac{5}{9}', '\\frac{-9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\frac{-5}{3}', '\\frac{-2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8} \\times \\frac{-2}{3}', '\\frac{7}{12}');
@@ -4326,12 +4326,12 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{4}{3}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3} \\times \\frac{-7}{4}', '\\frac{-7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}+\\frac{-7}{9}', '\\frac{-2}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5} \\times \\frac{1}{2}', '\\frac{-9}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}-\\frac{-5}{9}', '\\frac{-10}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}+\\frac{-7}{4}', '\\frac{-1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}:\\frac{-7}{4}', '\\frac{-4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{-8}{5}', '\\frac{-6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5} \\times \\frac{5}{4}', '\\frac{-7}{4}');
@@ -4345,7 +4345,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{5}{2}', '-4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}+\\frac{9}{7}', '\\frac{-3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}-\\frac{4}{9}', '\\frac{2}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5} \\times \\frac{-5}{7}', '\\frac{-9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}+\\frac{4}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5} \\times \\frac{7}{4}', '\\frac{-7}{10}');
@@ -4379,7 +4379,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}-\\frac{3}{4}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4} \\times \\frac{3}{7}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9} \\times \\frac{-9}{7}', '\\frac{-2}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{-2}{7}', '\\frac{3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5} \\times \\frac{-1}{6}', '\\frac{-1}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}:\\frac{2}{5}', '3');
@@ -4467,7 +4467,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{-2}{3}', '\\frac{-9}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}-\\frac{8}{7}', '\\frac{-9}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9} \\times \\frac{6}{5}', '\\frac{-8}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{-5}{3}', '\\frac{1}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}-\\frac{-7}{2}', '7');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}:\\frac{7}{4}', '\\frac{-4}{5}');
@@ -4494,7 +4494,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{9}{4}', '\\frac{-3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{1}{3}', '\\frac{-11}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}:\\frac{-7}{3}', '\\frac{3}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\frac{-6}{5}', '\\frac{-10}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5} \\times \\frac{2}{3}', '\\frac{2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}:\\frac{8}{9}', '\\frac{-9}{14}');
@@ -4532,7 +4532,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{7}{3}', '\\frac{-7}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{-7}{4}', '\\frac{14}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\frac{6}{5}', '\\frac{10}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}+\\frac{1}{2}', '\\frac{-7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}-\\frac{-5}{8}', '\\frac{-9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}+\\frac{-5}{2}', '-1');
@@ -4723,8 +4723,8 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7}-\\frac{5}{7}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}:\\frac{-8}{9}', '\\frac{-1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4} \\times \\frac{-4}{7}', '\\frac{5}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{2}', '\\frac{0}{-1}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{2}', '0');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{-7}{2}', '\\frac{-3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7} \\times \\frac{5}{8}', '\\frac{-5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9}-\\frac{-5}{9}', '\\frac{1}{3}');
@@ -4732,7 +4732,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}+\\frac{1}{4}', '\\frac{7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9}:\\frac{-5}{9}', '\\frac{2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{8}{3}', '\\frac{-14}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4} \\times \\frac{-2}{5}', '\\frac{-1}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{8}{5}', '\\frac{8}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}-\\frac{-9}{5}', '1');
@@ -4747,7 +4747,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2}+\\frac{-9}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{5}{3}', '\\frac{-1}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\frac{-3}{2}', '\\frac{-2}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7} \\times \\frac{2}{3}', '\\frac{-6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3} \\times \\frac{7}{5}', '\\frac{-7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}+\\frac{-1}{3}', '\\frac{-7}{9}');
@@ -4782,7 +4782,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}+\\frac{5}{8}', '\\frac{11}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\times \\frac{7}{2}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{-4}{9}', '\\frac{3}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}-\\frac{2}{3}', '\\frac{11}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}:\\frac{-5}{6}', '\\frac{-2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{-2}{5}', '\\frac{2}{5}');
@@ -4798,7 +4798,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}+\\frac{7}{5}', '\\frac{-11}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}+\\frac{6}{7}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3} \\times \\frac{4}{7}', '\\frac{-4}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{9}{8}', '\\frac{3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\times \\frac{-9}{2}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}+\\frac{9}{5}', '\\frac{11}{5}');
@@ -4812,7 +4812,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{2}{5}', '\\frac{2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9} \\times \\frac{9}{4}', '\\frac{-5}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{-4}{9}', '\\frac{2}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}-\\frac{-8}{3}', '5');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7}-\\frac{-4}{7}', '\\frac{3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7}+\\frac{-6}{7}', '-1');
@@ -4888,7 +4888,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{-4}{3}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}-\\frac{-3}{2}', '\\frac{13}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5} \\times \\frac{-7}{2}', '\\frac{-14}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}+\\frac{1}{2}', '\\frac{-1}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}:\\frac{3}{2}', '\\frac{-2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7}+\\frac{-6}{7}', '\\frac{-15}{7}');
@@ -4963,7 +4963,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{-1}{2}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{-7}{9}', '\\frac{7}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9} \\times \\frac{-1}{4}', '\\frac{-1}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}+\\frac{-5}{3}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3} \\times \\frac{1}{6}', '\\frac{4}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\frac{7}{3}', '\\frac{-4}{7}');
@@ -5094,13 +5094,13 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4} \\times \\frac{-4}{9}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{-3}{2}', '\\frac{-2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\times \\frac{1}{2}', '\\frac{5}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5} \\times \\frac{-5}{4}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}-\\frac{-7}{6}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}:\\frac{-7}{6}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}:\\frac{-5}{2}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7} \\times \\frac{1}{8}', '\\frac{-1}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3} \\times \\frac{-9}{8}', '\\frac{15}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}-\\frac{5}{8}', '\\frac{-3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7}:\\frac{1}{5}', '\\frac{-15}{7}');
@@ -5232,7 +5232,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\times \\frac{-2}{9}', '\\frac{-2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}+\\frac{-7}{6}', '\\frac{-11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}+\\frac{-2}{9}', '\\frac{-2}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}:\\frac{-8}{5}', '\\frac{-1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{-5}{3}', '\\frac{-10}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\times \\frac{7}{9}', '\\frac{-14}{15}');
@@ -5315,7 +5315,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8}:\\frac{-1}{8}', '9');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9}+\\frac{-1}{3}', '\\frac{-5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{-6}{7}', '\\frac{6}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}-\\frac{-9}{2}', '\\frac{11}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}+\\frac{-1}{8}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}-\\frac{-8}{7}', '\\frac{11}{7}');
@@ -5423,7 +5423,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{1}{4}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}:\\frac{-7}{4}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}-\\frac{5}{2}', '1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7} \\times \\frac{-7}{8}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-4}{9}', '\\frac{9}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}:\\frac{-5}{3}', '\\frac{7}{10}');
@@ -5450,7 +5450,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\frac{2}{3}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}-\\frac{7}{3}', '\\frac{-11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{-1}{4}', '\\frac{2}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}+\\frac{-1}{8}', '\\frac{1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{3}{2}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{-6}{5}', '\\frac{-5}{8}');
@@ -5569,7 +5569,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5} \\times \\frac{-5}{6}', '\\frac{-1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7} \\times \\frac{-3}{2}', '\\frac{-3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}+\\frac{-7}{3}', '\\frac{-13}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}:\\frac{5}{3}', '\\frac{-4}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}+\\frac{5}{2}', '\\frac{7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{4}{7}', '-1');
@@ -5731,7 +5731,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\times \\frac{3}{7}', '\\frac{-1}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}-\\frac{-8}{5}', '\\frac{7}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}+\\frac{5}{4}', '\\frac{1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7}+\\frac{1}{7}', '\\frac{5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}-\\frac{5}{2}', '\\frac{-13}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\frac{-5}{9}', '-1');
@@ -5774,7 +5774,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}+\\frac{-1}{5}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7} \\times \\frac{-7}{5}', '\\frac{-1}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}+\\frac{5}{3}', '\\frac{11}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9} \\times \\frac{-9}{4}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{2}{7}', '\\frac{9}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}:\\frac{-5}{8}', '\\frac{-4}{3}');
@@ -5792,7 +5792,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}-\\frac{2}{3}', '\\frac{-7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\frac{5}{7}', '\\frac{7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9} \\times \\frac{3}{5}', '\\frac{-1}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}-\\frac{2}{9}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}:\\frac{-2}{9}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}-\\frac{1}{3}', '-2');
@@ -5899,7 +5899,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9} \\times \\frac{-9}{2}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}+\\frac{1}{2}', '\\frac{11}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}+\\frac{5}{8}', '\\frac{-1}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}:\\frac{-6}{7}', '\\frac{-7}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3} \\times \\frac{1}{5}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}:\\frac{5}{3}', '\\frac{-3}{7}');
@@ -5916,7 +5916,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{-4}{5}', '\\frac{-4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{-9}{5}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}:\\frac{-2}{3}', '\\frac{-3}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}:\\frac{-1}{5}', '\\frac{5}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}+\\frac{-7}{6}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{9}{2}', '3');
@@ -5957,7 +5957,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4} \\times \\frac{8}{9}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}:\\frac{2}{9}', '\\frac{-9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}-\\frac{-2}{3}', '\\frac{-1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{4}{9}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7} \\times \\frac{-1}{6}', '\\frac{-1}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{-6}{7}', '\\frac{9}{7}');
@@ -6007,7 +6007,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{5}{9}', '\\frac{4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}+\\frac{0}{-1}', '\\frac{-5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}-\\frac{-1}{4}', '\\frac{1}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}-\\frac{7}{5}', '\\frac{-9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}+\\frac{-9}{2}', '\\frac{-11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}-\\frac{1}{6}', '\\frac{-11}{6}');
@@ -6051,7 +6051,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3} \\times \\frac{9}{2}', '-6');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\frac{8}{3}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}:\\frac{7}{8}', '\\frac{8}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{6}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{6}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{5}{6}', '\\frac{-15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}-\\frac{7}{3}', '\\frac{-7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}+\\frac{4}{9}', '\\frac{1}{3}');
@@ -6063,7 +6063,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{3}{4}', '\\frac{-2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7}:\\frac{3}{2}', '\\frac{-4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}+\\frac{5}{3}', '-1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}-\\frac{4}{3}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7}:\\frac{-1}{8}', '\\frac{8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}:\\frac{-3}{5}', '\\frac{-10}{7}');
@@ -6081,14 +6081,14 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7} \\times \\frac{-7}{8}', '\\frac{-1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\times \\frac{-1}{2}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9}:\\frac{5}{6}', '\\frac{-4}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}-\\frac{-2}{3}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}:\\frac{-5}{3}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}+\\frac{-3}{4}', '\\frac{-5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{7}{2}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}-\\frac{8}{5}', '\\frac{-14}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}:\\frac{7}{4}', '\\frac{1}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}+\\frac{7}{3}', '\\frac{14}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}-\\frac{5}{3}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}-\\frac{-3}{2}', '\\frac{5}{6}');
@@ -6138,7 +6138,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}:\\frac{3}{2}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7}:\\frac{4}{7}', '\\frac{-3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5} \\times \\frac{-2}{9}', '\\frac{-4}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}:\\frac{-1}{7}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}-\\frac{9}{2}', '-9');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{1}{4}', '\\frac{-7}{4}');
@@ -6151,7 +6151,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\frac{-3}{5}', '\\frac{-5}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}:\\frac{-3}{2}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}-\\frac{-6}{5}', '\\frac{12}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}-\\frac{3}{2}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9} \\times \\frac{9}{7}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}-\\frac{-1}{3}', '\\frac{5}{6}');
@@ -6211,7 +6211,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}:\\frac{9}{7}', '\\frac{5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}:\\frac{7}{6}', '\\frac{3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8} \\times \\frac{-9}{5}', '\\frac{-9}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}:\\frac{5}{4}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}+\\frac{-1}{2}', '\\frac{-7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}+\\frac{5}{4}', '\\frac{5}{12}');
@@ -6222,7 +6222,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}:\\frac{-1}{2}', '\\frac{-2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}+\\frac{8}{5}', '\\frac{4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{5}{7}', '\\frac{3}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}:\\frac{-5}{7}', '\\frac{-7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9}-\\frac{-7}{9}', '\\frac{5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}:\\frac{-4}{9}', '1');
@@ -6272,7 +6272,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}-\\frac{0}{-1}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\times \\frac{7}{5}', '\\frac{-4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}+\\frac{-2}{3}', '-2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{9}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\frac{1}{8}', '12');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2}+\\frac{1}{6}', '\\frac{14}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}-\\frac{3}{2}', '\\frac{3}{10}');
@@ -6370,7 +6370,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}:\\frac{5}{6}', '\\frac{6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5} \\times \\frac{1}{3}', '\\frac{4}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}:\\frac{-7}{4}', '-1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\frac{5}{6}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}:\\frac{-1}{4}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}:\\frac{4}{7}', '\\frac{1}{4}');
@@ -6635,7 +6635,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7} \\times \\frac{-7}{4}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6} \\times \\frac{-9}{7}', '\\frac{-15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{0}{-1}', '\\frac{6}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}:\\frac{1}{6}', '14');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{-3}{2}', '\\frac{-3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}:\\frac{3}{2}', '\\frac{7}{6}');
@@ -6675,7 +6675,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{-2}{7}', '\\frac{-3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\frac{2}{3}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}:\\frac{1}{8}', '2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}+\\frac{-4}{5}', '\\frac{3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}-\\frac{-8}{3}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}:\\frac{9}{8}', '\\frac{1}{9}');
@@ -6719,7 +6719,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}-\\frac{7}{2}', '\\frac{-9}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\frac{5}{4}', '\\frac{14}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\times \\frac{-8}{5}', '\\frac{4}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{6}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{6}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}:\\frac{1}{5}', '\\frac{5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{-4}{5}', '\\frac{-6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{5}{7}', '\\frac{11}{14}');
@@ -6728,7 +6728,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}:\\frac{5}{8}', '\\frac{4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{9}{8}', '\\frac{9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}-\\frac{1}{8}', '-1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\times \\frac{5}{2}', '\\frac{-15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{1}{6}', '\\frac{1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}-\\frac{-9}{7}', '1');
@@ -6749,7 +6749,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8} \\times \\frac{-8}{3}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}+\\frac{3}{4}', '\\frac{13}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}-\\frac{2}{5}', '\\frac{-8}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\frac{-1}{3}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}:\\frac{4}{7}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}:\\frac{-8}{9}', '\\frac{-9}{5}');
@@ -6782,7 +6782,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{-1}{5}', '\\frac{15}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}+\\frac{2}{3}', '\\frac{10}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{1}{2}', '\\frac{4}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5} \\times \\frac{5}{6}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7} \\times \\frac{-7}{2}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{1}{4}', '\\frac{5}{4}');
@@ -6858,7 +6858,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7} \\times \\frac{-5}{3}', '\\frac{-5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}:\\frac{9}{8}', '\\frac{8}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6} \\times \\frac{-4}{5}', '\\frac{14}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8} \\times \\frac{-5}{3}', '\\frac{5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}-\\frac{4}{3}', '\\frac{-2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}:\\frac{-4}{3}', '\\frac{9}{10}');
@@ -6869,7 +6869,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}:\\frac{-1}{2}', '\\frac{-6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{3}{2}', '\\frac{12}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9} \\times \\frac{-6}{5}', '\\frac{4}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-1}{7}', '\\frac{14}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8} \\times \\frac{2}{3}', '\\frac{1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\frac{-7}{9}', '\\frac{-4}{9}');
@@ -6955,7 +6955,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}-\\frac{-6}{5}', '\\frac{-3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}:\\frac{-1}{5}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}-\\frac{0}{-1}', '\\frac{8}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}:\\frac{-3}{4}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}+\\frac{1}{2}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}-\\frac{-5}{2}', '5');
@@ -6979,7 +6979,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}-\\frac{-7}{2}', '\\frac{10}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}:\\frac{4}{9}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}-\\frac{3}{5}', '\\frac{-4}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{-2}{5}', '\\frac{2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{-4}{3}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{2}{3}', '\\frac{-2}{3}');
@@ -7030,7 +7030,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{1}{4}', '\\frac{-2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{1}{2}', '\\frac{1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}:\\frac{-4}{3}', '\\frac{-2}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\frac{1}{6}', '\\frac{-13}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9} \\times \\frac{-8}{7}', '\\frac{-8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}:\\frac{-4}{9}', '\\frac{-15}{8}');
@@ -7046,13 +7046,13 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}+\\frac{-3}{5}', '\\frac{1}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}-\\frac{1}{3}', '\\frac{1}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}+\\frac{-1}{2}', '\\frac{-7}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}-\\frac{1}{2}', '\\frac{7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}-\\frac{-6}{5}', '\\frac{3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2} \\times \\frac{1}{9}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}:\\frac{-7}{5}', '\\frac{5}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}-\\frac{-7}{6}', '\\frac{14}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}+\\frac{-7}{8}', '\\frac{11}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7} \\times \\frac{-2}{9}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5} \\times \\frac{2}{9}', '\\frac{-2}{5}');
@@ -7101,7 +7101,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}+\\frac{0}{-1}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}+\\frac{6}{7}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}+\\frac{-2}{3}', '\\frac{-13}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\frac{6}{5}', '\\frac{5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\times \\frac{-9}{4}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5} \\times \\frac{5}{9}', '\\frac{1}{3}');
@@ -7219,7 +7219,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}:\\frac{7}{6}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{5}{3}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}-\\frac{4}{7}', '\\frac{1}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8} \\times \\frac{8}{7}', '\\frac{3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7}-\\frac{3}{2}', '\\frac{-3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2} \\times \\frac{-1}{4}', '\\frac{5}{8}');
@@ -7332,7 +7332,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{-5}{2}', '\\frac{5}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}+\\frac{7}{2}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9} \\times \\frac{-9}{4}', '-1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}:\\frac{7}{4}', '\\frac{4}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}:\\frac{-3}{4}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4} \\times \\frac{-8}{9}', '\\frac{2}{3}');
@@ -7475,7 +7475,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}-\\frac{5}{4}', '\\frac{-7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}+\\frac{1}{8}', '\\frac{-5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}+\\frac{1}{5}', '\\frac{3}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}+\\frac{-8}{5}', '\\frac{9}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}:\\frac{6}{7}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}:\\frac{7}{2}', '\\frac{-2}{3}');
@@ -7493,7 +7493,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8}+\\frac{3}{4}', '\\frac{5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}-\\frac{5}{9}', '\\frac{10}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}-\\frac{-5}{3}', '\\frac{14}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}-\\frac{7}{5}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}-\\frac{-7}{4}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{2}{5}', '\\frac{8}{5}');
@@ -7509,7 +7509,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5} \\times \\frac{8}{3}', '\\frac{8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}+\\frac{-3}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}:\\frac{4}{3}', '\\frac{-9}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}:\\frac{1}{3}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}+\\frac{7}{3}', '\\frac{1}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8} \\times \\frac{-8}{5}', '-1');
@@ -7532,7 +7532,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3} \\times \\frac{-1}{3}', '\\frac{7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{1}{7}', '\\frac{-7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9} \\times \\frac{-9}{8}', '\\frac{-5}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}-\\frac{7}{8}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}+\\frac{1}{3}', '\\frac{-13}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}:\\frac{-1}{8}', '14');
@@ -7584,7 +7584,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{5}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}+\\frac{-7}{5}', '\\frac{2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9} \\times \\frac{6}{5}', '\\frac{8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4} \\times \\frac{5}{6}', '\\frac{-15}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}-\\frac{-3}{5}', '\\frac{-3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}+\\frac{-7}{9}', '\\frac{-11}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}:\\frac{-3}{4}', '\\frac{-5}{3}');
@@ -7611,7 +7611,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2} \\times \\frac{2}{5}', '\\frac{9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3} \\times \\frac{-6}{7}', '\\frac{-8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{9}{7}', '\\frac{-9}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\frac{-2}{5}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9} \\times \\frac{9}{8}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8} \\times \\frac{-8}{7}', '\\frac{1}{7}');
@@ -7666,7 +7666,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{-1}{5}', '\\frac{3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}-\\frac{-2}{5}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5} \\times \\frac{2}{3}', '\\frac{-6}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}:\\frac{-5}{3}', '\\frac{7}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}+\\frac{7}{3}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}:\\frac{4}{3}', '\\frac{-3}{5}');
@@ -7683,7 +7683,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}:\\frac{-9}{4}', '\\frac{10}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}+\\frac{-1}{2}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3} \\times \\frac{1}{4}', '\\frac{7}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}-\\frac{-3}{8}', '\\frac{5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}+\\frac{-4}{5}', '\\frac{-11}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9} \\times \\frac{-3}{8}', '\\frac{1}{6}');
@@ -7747,7 +7747,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}:\\frac{4}{9}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}:\\frac{1}{4}', '\\frac{-4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4} \\times \\frac{-7}{5}', '\\frac{7}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{-9}{4}', '\\frac{2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{-9}{5}', '\\frac{-5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}-\\frac{5}{2}', '\\frac{-11}{3}');
@@ -7796,7 +7796,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\frac{7}{5}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}+\\frac{-8}{5}', '\\frac{-12}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}-\\frac{-5}{2}', '\\frac{10}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}-\\frac{3}{8}', '\\frac{-3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8} \\times \\frac{-1}{9}', '\\frac{-1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{1}{7}', '\\frac{-9}{14}');
@@ -7906,7 +7906,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8} \\times \\frac{-4}{3}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}+\\frac{-1}{3}', '\\frac{-2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{2}{3}', '\\frac{1}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}-\\frac{9}{7}', '\\frac{-4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}-\\frac{3}{4}', '\\frac{-13}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\times \\frac{-1}{2}', '\\frac{3}{14}');
@@ -8034,7 +8034,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{7}{2}', '\\frac{3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\times \\frac{-2}{3}', '\\frac{1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3}+\\frac{-5}{3}', '1');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}-\\frac{-1}{4}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7} \\times \\frac{7}{8}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9} \\times \\frac{-3}{5}', '\\frac{-8}{15}');
@@ -8154,8 +8154,8 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}:\\frac{8}{7}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}:\\frac{-3}{2}', '\\frac{-2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}:\\frac{-9}{8}', '\\frac{-4}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5} \\times \\frac{0}{-1}', '0');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{-8}{5}', '\\frac{-8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9} \\times \\frac{3}{7}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}+\\frac{5}{3}', '\\frac{8}{9}');
@@ -8382,7 +8382,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7} \\times \\frac{-7}{4}', '\\frac{9}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}:\\frac{7}{5}', '\\frac{-1}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}+\\frac{-1}{3}', '\\frac{-10}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}:\\frac{1}{3}', '\\frac{-15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}-\\frac{-2}{5}', '\\frac{-4}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7} \\times \\frac{3}{2}', '\\frac{3}{7}');
@@ -8408,7 +8408,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}+\\frac{-2}{3}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}:\\frac{-5}{8}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5} \\times \\frac{-7}{6}', '\\frac{-7}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2} \\times \\frac{4}{5}', '\\frac{14}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}:\\frac{3}{8}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}-\\frac{-5}{4}', '-1');
@@ -8487,7 +8487,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}:\\frac{4}{9}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}:\\frac{7}{9}', '\\frac{-9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}-\\frac{8}{5}', '\\frac{-2}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}:\\frac{-5}{4}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{-1}{2}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}:\\frac{-4}{7}', '2');
@@ -8534,7 +8534,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{5}{3}', '\\frac{15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4} \\times \\frac{-8}{3}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}:\\frac{1}{2}', '\\frac{5}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}-\\frac{-3}{8}', '\\frac{-11}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{5}{2}', '\\frac{-5}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}+\\frac{-7}{2}', '-3');
@@ -8663,7 +8663,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}+\\frac{5}{2}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}-\\frac{-1}{2}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{9}+\\frac{-1}{9}', '\\frac{7}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}:\\frac{7}{6}', '\\frac{-6}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}:\\frac{5}{2}', '\\frac{-4}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{-3}{7}', '\\frac{7}{9}');
@@ -8786,7 +8786,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}:\\frac{4}{9}', '\\frac{-7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}+\\frac{-3}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}:\\frac{7}{4}', '\\frac{-4}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7}:\\frac{1}{7}', '-6');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}+\\frac{-5}{6}', '\\frac{-13}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}:\\frac{1}{2}', '\\frac{-8}{7}');
@@ -8836,10 +8836,10 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}:\\frac{7}{9}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}+\\frac{-3}{2}', '\\frac{-15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}:\\frac{-9}{4}', '\\frac{14}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}:\\frac{1}{2}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2} \\times \\frac{4}{5}', '-2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}:\\frac{-5}{6}', '\\frac{-3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6} \\times \\frac{9}{7}', '\\frac{-15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}:\\frac{2}{9}', '\\frac{1}{2}');
@@ -8917,7 +8917,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4} \\times \\frac{7}{3}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\times \\frac{7}{5}', '\\frac{9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5} \\times \\frac{7}{8}', '\\frac{7}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5} \\times \\frac{-8}{7}', '\\frac{-8}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5}:\\frac{8}{5}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}-\\frac{-1}{6}', '\\frac{11}{12}');
@@ -8958,7 +8958,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}:\\frac{-3}{5}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{1}{4}', '\\frac{-1}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}-\\frac{3}{2}', '-5');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}+\\frac{-7}{2}', '\\frac{-11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}+\\frac{-3}{5}', '\\frac{-12}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}+\\frac{9}{7}', '\\frac{12}{7}');
@@ -8996,11 +8996,11 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}+\\frac{-3}{5}', '\\frac{-2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\times \\frac{2}{9}', '\\frac{2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}+\\frac{-6}{5}', '\\frac{-3}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-6}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-6}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}+\\frac{5}{6}', '\\frac{10}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{7}{6}', '\\frac{-2}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{-1}{3}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7}+\\frac{5}{7}', '\\frac{9}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}:\\frac{-2}{3}', '\\frac{-15}{14}');
@@ -9012,12 +9012,12 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{5}{7}', '\\frac{8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}:\\frac{1}{2}', '-9');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}:\\frac{3}{4}', '\\frac{5}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}+\\frac{3}{7}', '\\frac{-5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4} \\times \\frac{-4}{3}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}:\\frac{5}{6}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\times \\frac{-4}{5}', '\\frac{2}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}-\\frac{-2}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}-\\frac{-8}{9}', '\\frac{-7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}:\\frac{9}{4}', '\\frac{2}{9}');
@@ -9206,7 +9206,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\times \\frac{1}{4}', '\\frac{5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{-4}{3}', '\\frac{-2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}+\\frac{-5}{7}', '\\frac{-13}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{4}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}-\\frac{-3}{2}', '\\frac{-1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}+\\frac{7}{6}', '\\frac{14}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}+\\frac{-8}{5}', '\\frac{1}{5}');
@@ -9214,13 +9214,13 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{7}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7}:\\frac{-3}{5}', '\\frac{-15}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{6}{5}', '\\frac{12}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}:\\frac{8}{3}', '\\frac{-7}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{-2}{7}', '\\frac{7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}-\\frac{2}{5}', '\\frac{-11}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4} \\times \\frac{-2}{3}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}+\\frac{3}{2}', '\\frac{-1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}+\\frac{9}{8}', '\\frac{-11}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8} \\times \\frac{-1}{3}', '\\frac{-1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7}-\\frac{6}{7}', '\\frac{-15}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{-9}{8}', '\\frac{1}{3}');
@@ -9228,7 +9228,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{-2}{9}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{2}{5}', '\\frac{3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}+\\frac{-8}{3}', '\\frac{5}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}:\\frac{4}{3}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\times \\frac{1}{5}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}-\\frac{0}{-1}', '\\frac{2}{3}');
@@ -9316,7 +9316,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}:\\frac{3}{7}', '\\frac{-7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}:\\frac{1}{4}', '7');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5} \\times \\frac{-5}{6}', '\\frac{2}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}:\\frac{7}{4}', '\\frac{10}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\frac{-8}{9}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}:\\frac{9}{5}', '\\frac{-5}{2}');
@@ -9350,7 +9350,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2}+\\frac{1}{2}', '5');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}-\\frac{0}{-1}', '\\frac{1}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9} \\times \\frac{7}{2}', '\\frac{7}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{2}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{5}{3}', '\\frac{-1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}+\\frac{5}{2}', '\\frac{15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\frac{-3}{7}', '\\frac{-7}{9}');
@@ -9367,7 +9367,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}+\\frac{3}{7}', '\\frac{6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}-\\frac{-5}{6}', '\\frac{5}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}:\\frac{-9}{8}', '2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8}-\\frac{1}{4}', '\\frac{-3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{1}{2}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}:\\frac{9}{2}', '\\frac{1}{2}');
@@ -9456,13 +9456,13 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7}:\\frac{1}{4}', '\\frac{-12}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}+\\frac{-5}{4}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}+\\frac{-5}{2}', '\\frac{-13}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3}+\\frac{-2}{3}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{-5}{6}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7} \\times \\frac{5}{2}', '\\frac{5}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{-5}{6}', '\\frac{-8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}+\\frac{-7}{2}', '\\frac{-7}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{-2}{5}', '\\frac{15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}-\\frac{6}{7}', '\\frac{-4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3} \\times \\frac{1}{2}', '\\frac{7}{6}');
@@ -9532,7 +9532,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{1}{9}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7}:\\frac{5}{7}', '\\frac{-9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5}-\\frac{-6}{5}', '2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-4}{7}', '\\frac{7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}:\\frac{4}{3}', '\\frac{-15}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}+\\frac{-2}{5}', '\\frac{-1}{5}');
@@ -9580,7 +9580,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5} \\times \\frac{1}{3}', '\\frac{3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}:\\frac{-5}{8}', '\\frac{4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{-7}{4}', '\\frac{-7}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{9}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7}-\\frac{4}{7}', '\\frac{-13}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4} \\times \\frac{-5}{3}', '\\frac{-5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}:\\frac{-3}{5}', '\\frac{7}{3}');
@@ -9679,7 +9679,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\times \\frac{-4}{3}', '\\frac{8}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}-\\frac{3}{8}', '\\frac{-15}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}-\\frac{7}{5}', '\\frac{-8}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}:\\frac{1}{7}', '6');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3} \\times \\frac{-3}{5}', '\\frac{-4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}-\\frac{-7}{2}', '\\frac{7}{4}');
@@ -9732,7 +9732,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}-\\frac{1}{8}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{-4}{5}', '\\frac{2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6} \\times \\frac{-9}{4}', '\\frac{-15}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}:\\frac{9}{2}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}+\\frac{-5}{6}', '\\frac{2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}:\\frac{-3}{5}', '\\frac{-15}{4}');
@@ -9924,7 +9924,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8} \\times \\frac{8}{5}', '\\frac{-7}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}-\\frac{-4}{5}', '\\frac{2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}-\\frac{7}{8}', '0');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\frac{4}{3}', '\\frac{7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8}-\\frac{3}{2}', '\\frac{-13}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5}-\\frac{4}{3}', '\\frac{7}{15}');
@@ -9949,7 +9949,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}-\\frac{7}{8}', '\\frac{-7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7} \\times \\frac{-7}{2}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7}+\\frac{4}{7}', '\\frac{-2}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2} \\times \\frac{2}{9}', '\\frac{-7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}-\\frac{1}{3}', '\\frac{-7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5} \\times \\frac{-3}{2}', '\\frac{9}{5}');
@@ -10037,13 +10037,13 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{-2}{9}', '\\frac{2}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}+\\frac{6}{7}', '\\frac{8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}+\\frac{-1}{8}', '\\frac{3}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\frac{2}{9}', '-6');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}+\\frac{5}{8}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\frac{9}{4}', '\\frac{-1}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}-\\frac{-5}{4}', '\\frac{-9}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}+\\frac{-1}{6}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3} \\times \\frac{1}{7}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7}-\\frac{2}{7}', '\\frac{3}{7}');
@@ -10070,7 +10070,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9}:\\frac{-1}{5}', '\\frac{-5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}-\\frac{-4}{5}', '\\frac{-3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{-1}{6}', '\\frac{1}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\frac{5}{6}', '\\frac{7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}-\\frac{0}{-1}', '\\frac{4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}-\\frac{-3}{2}', '\\frac{9}{8}');
@@ -10092,7 +10092,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}:\\frac{3}{4}', '\\frac{-7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4} \\times \\frac{8}{7}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3} \\times \\frac{1}{2}', '\\frac{5}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}:\\frac{-8}{5}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}+\\frac{-9}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\frac{8}{9}', '\\frac{5}{8}');
@@ -10222,7 +10222,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}:\\frac{-4}{5}', '\\frac{-5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{7}-\\frac{-2}{7}', '\\frac{4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{5}+\\frac{1}{2}', '\\frac{-7}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{7}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5}-\\frac{-4}{5}', '\\frac{-4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}+\\frac{0}{-1}', '\\frac{-8}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}:\\frac{2}{7}', '\\frac{-7}{6}');
@@ -10252,7 +10252,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{8} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}-\\frac{-9}{4}', '\\frac{11}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}+\\frac{-3}{2}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}+\\frac{2}{3}', '\\frac{-2}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{5} \\times \\frac{-1}{2}', '\\frac{-2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9}:\\frac{-5}{6}', '\\frac{2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}:\\frac{-7}{3}', '\\frac{-3}{4}');
@@ -10278,7 +10278,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}+\\frac{6}{7}', '\\frac{1}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}+\\frac{1}{8}', '\\frac{1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5} \\times \\frac{4}{3}', '\\frac{4}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\times \\frac{1}{3}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}+\\frac{-3}{8}', '\\frac{-1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}+\\frac{7}{4}', '\\frac{-7}{12}');
@@ -10401,7 +10401,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}+\\frac{7}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6} \\times \\frac{3}{5}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3} \\times \\frac{-2}{5}', '\\frac{-14}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{6}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{6}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2} \\times \\frac{2}{9}', '\\frac{7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}-\\frac{4}{3}', '\\frac{-11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}-\\frac{0}{-1}', '\\frac{-3}{8}');
@@ -10413,11 +10413,11 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7}+\\frac{-2}{7}', '\\frac{-6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5} \\times \\frac{5}{4}', '\\frac{-1}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3} \\times \\frac{7}{4}', '\\frac{-14}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{-2}{5}', '\\frac{-3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}-\\frac{-2}{3}', '\\frac{-2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}+\\frac{0}{-1}', '\\frac{7}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-7}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4} \\times \\frac{-1}{6}', '\\frac{3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3}-\\frac{7}{4}', '\\frac{11}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{-9}{5}', '\\frac{9}{10}');
@@ -10592,7 +10592,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{2}{9}', '\\frac{1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}+\\frac{1}{2}', '\\frac{-2}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7}:\\frac{8}{5}', '\\frac{5}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}+\\frac{-4}{7}', '\\frac{-1}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}+\\frac{-1}{4}', '\\frac{-1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-2}{7}', '\\frac{7}{5}');
@@ -10645,10 +10645,10 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3}-\\frac{5}{3}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}+\\frac{8}{3}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{8}-\\frac{-3}{8}', '\\frac{-1}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}-\\frac{7}{2}', '\\frac{-11}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5} \\times \\frac{1}{6}', '\\frac{1}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{9} \\times \\frac{-3}{2}', '\\frac{1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9}:\\frac{-7}{9}', '\\frac{-4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}:\\frac{1}{5}', '\\frac{10}{9}');
@@ -10835,7 +10835,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9}:\\frac{-7}{5}', '\\frac{5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}+\\frac{-7}{8}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5} \\times \\frac{-5}{8}', '\\frac{-3}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}-\\frac{7}{3}', '\\frac{-14}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}+\\frac{-7}{2}', '\\frac{-13}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3} \\times \\frac{-8}{7}', '\\frac{-8}{3}');
@@ -10909,7 +10909,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}:\\frac{3}{4}', '\\frac{10}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}-\\frac{7}{9}', '\\frac{-11}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{-7}{8}', '\\frac{12}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4}+\\frac{-5}{8}', '\\frac{9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{-3}{4}', '\\frac{-3}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2} \\times \\frac{2}{3}', '\\frac{5}{3}');
@@ -10987,7 +10987,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}:\\frac{3}{4}', '\\frac{4}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{-7}{4}', '\\frac{3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-1}{5}', '2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{1}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}+\\frac{1}{2}', '\\frac{-3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}+\\frac{7}{8}', '\\frac{-5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}+\\frac{0}{-1}', '\\frac{2}{3}');
@@ -10996,7 +10996,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{7}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7} \\times \\frac{1}{6}', '\\frac{1}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2}-\\frac{5}{2}', '-6');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7}:\\frac{8}{7}', '\\frac{1}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\frac{-1}{4}', '\\frac{-14}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7}-\\frac{4}{7}', '\\frac{5}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5}+\\frac{9}{5}', '\\frac{1}{5}');
@@ -11077,11 +11077,11 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\times \\frac{-6}{7}', '\\frac{3}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}-\\frac{-7}{3}', '\\frac{14}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}+\\frac{-1}{4}', '\\frac{13}{12}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{5}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}-\\frac{4}{5}', '\\frac{4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{5}+\\frac{-8}{5}', '\\frac{-7}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{-7}{3}', '\\frac{-7}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-2}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{-7}{2}', '\\frac{-7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}:\\frac{-5}{9}', '\\frac{9}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2} \\times \\frac{-2}{3}', '\\frac{-7}{3}');
@@ -11173,9 +11173,9 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}:\\frac{5}{8}', '\\frac{-14}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}-\\frac{-5}{3}', '\\frac{11}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\frac{0}{-1}', '\\frac{1}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}-\\frac{-8}{5}', '\\frac{4}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}:\\frac{1}{7}', '\\frac{14}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}:\\frac{6}{5}', '\\frac{-5}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4} \\times \\frac{-3}{2}', '\\frac{-15}{8}');
@@ -11212,7 +11212,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}-\\frac{-9}{7}', '\\frac{15}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}-\\frac{-3}{5}', '\\frac{1}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{6}+\\frac{2}{3}', '\\frac{5}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{9} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}-\\frac{5}{6}', '\\frac{-13}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7}:\\frac{1}{2}', '\\frac{-2}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{-1}{3}', '\\frac{9}{2}');
@@ -11236,7 +11236,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}+\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{7}-\\frac{5}{7}', '\\frac{-13}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{-1}{2}', '\\frac{-5}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}-\\frac{-9}{8}', '\\frac{11}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{7}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}+\\frac{-5}{8}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}-\\frac{1}{2}', '\\frac{-5}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5}+\\frac{-7}{5}', '-3');
@@ -11258,7 +11258,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}:\\frac{-5}{4}', '\\frac{2}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\times \\frac{-5}{2}', '\\frac{5}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-4}{3}', '\\frac{3}{10}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{8}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}:\\frac{-2}{3}', '\\frac{15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}-\\frac{-1}{2}', '\\frac{1}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}+\\frac{-7}{6}', '\\frac{13}{12}');
@@ -11287,7 +11287,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}-\\frac{5}{4}', '\\frac{-15}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}:\\frac{-5}{3}', '\\frac{4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}-\\frac{1}{3}', '\\frac{-1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-3}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}-\\frac{0}{-1}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{2}-\\frac{9}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}:\\frac{-2}{3}', '\\frac{2}{3}');
@@ -11307,7 +11307,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}:\\frac{-6}{7}', '\\frac{7}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{4}:\\frac{-7}{2}', '\\frac{-1}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}+\\frac{9}{4}', '\\frac{7}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}:\\frac{7}{9}', '\\frac{15}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}+\\frac{7}{6}', '\\frac{11}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-6}{7}:\\frac{9}{7}', '\\frac{-2}{3}');
@@ -11321,7 +11321,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{4}+\\frac{7}{4}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{8}:\\frac{5}{4}', '\\frac{-7}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7}+\\frac{5}{7}', '\\frac{13}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-4}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8} \\times \\frac{9}{5}', '\\frac{9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5} \\times \\frac{1}{6}', '\\frac{4}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}-\\frac{-9}{8}', '\\frac{-1}{8}');
@@ -11374,7 +11374,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}:\\frac{1}{3}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6}:\\frac{2}{3}', '\\frac{7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}-\\frac{-5}{3}', '\\frac{1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-8}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5}-\\frac{-1}{3}', '\\frac{14}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2} \\times \\frac{-1}{2}', '\\frac{9}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3}-\\frac{0}{-1}', '\\frac{8}{3}');
@@ -11406,7 +11406,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3} \\times \\frac{-7}{2}', '\\frac{7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\times \\frac{7}{4}', '\\frac{-3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{2}-\\frac{-1}{4}', '\\frac{7}{4}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{4}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4} \\times \\frac{-4}{9}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}:\\frac{4}{7}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}:\\frac{1}{4}', '-9');
@@ -11493,7 +11493,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{9}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{8}+\\frac{1}{8}', '\\frac{5}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4}+\\frac{-7}{3}', '\\frac{-1}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3}+\\frac{-7}{3}', '\\frac{-5}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}-\\frac{-1}{6}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{1}{6}', '\\frac{9}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9} \\times \\frac{8}{7}', '\\frac{8}{9}');
@@ -11522,7 +11522,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{7} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{3} \\times \\frac{1}{8}', '\\frac{1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}+\\frac{2}{5}', '\\frac{9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}+\\frac{5}{3}', '\\frac{1}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}-\\frac{0}{-1}', '\\frac{5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}-\\frac{5}{3}', '\\frac{-13}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7} \\times \\frac{7}{6}', '\\frac{1}{6}');
@@ -11566,7 +11566,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{9}{5}', '3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}:\\frac{1}{3}', '-5');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{7}+\\frac{5}{7}', '\\frac{8}{7}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{3}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}-\\frac{-1}{6}', '\\frac{-5}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}+\\frac{-5}{6}', '\\frac{-3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}+\\frac{1}{2}', '\\frac{1}{10}');
@@ -11636,7 +11636,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{9} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}:\\frac{3}{7}', '\\frac{-5}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7} \\times \\frac{-7}{9}', '\\frac{1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5}-\\frac{-7}{3}', '\\frac{14}{15}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{2}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}+\\frac{0}{-1}', '\\frac{-4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{5}:\\frac{-3}{5}', '\\frac{-7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{5}{3}', '\\frac{5}{9}');
@@ -11676,7 +11676,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}-\\frac{-5}{4}', '\\frac{7}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8} \\times \\frac{1}{5}', '\\frac{1}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}:\\frac{1}{9}', '-8');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{1}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}:\\frac{-4}{7}', '\\frac{14}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}+\\frac{5}{2}', '\\frac{5}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}+\\frac{1}{4}', '\\frac{-1}{8}');
@@ -11713,7 +11713,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}+\\frac{2}{5}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}-\\frac{-4}{5}', '\\frac{13}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}:\\frac{-2}{7}', '\\frac{5}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{3} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\times \\frac{-3}{4}', '\\frac{3}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7} \\times \\frac{9}{4}', '\\frac{-9}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}-\\frac{-3}{2}', '-3');
@@ -11794,14 +11794,14 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{6}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}+\\frac{-7}{2}', '\\frac{-13}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}-\\frac{5}{4}', '\\frac{13}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{3}:\\frac{2}{7}', '\\frac{-7}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{7}:\\frac{-4}{5}', '\\frac{5}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2} \\times \\frac{7}{6}', '\\frac{-7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}-\\frac{-9}{7}', '\\frac{11}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}+\\frac{5}{2}', '\\frac{9}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{7}+\\frac{-5}{7}', '\\frac{-6}{7}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{5} \\times \\frac{7}{8}', '\\frac{-7}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9} \\times \\frac{-1}{2}', '\\frac{4}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}:\\frac{3}{4}', '\\frac{8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{7} \\times \\frac{-1}{4}', '\\frac{-2}{7}');
@@ -11839,7 +11839,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{6} \\times \\frac{1}{2}', '\\frac{7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3} \\times \\frac{1}{5}', '\\frac{-8}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8}-\\frac{-1}{2}', '\\frac{9}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{8}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-9}{8}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}+\\frac{-7}{4}', '\\frac{-13}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{3}:\\frac{-4}{9}', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5} \\times \\frac{-2}{3}', '\\frac{14}{15}');
@@ -12014,7 +12014,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}:\\frac{8}{3}', '\\frac{-3}{10}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}:\\frac{5}{7}', '\\frac{-7}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}+\\frac{-9}{2}', '\\frac{-9}{2}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}-\\frac{-5}{6}', '\\frac{-11}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{7}:\\frac{8}{7}', '\\frac{3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8}-\\frac{-7}{8}', '\\frac{5}{4}');
@@ -12023,7 +12023,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}+\\frac{7}{6}', '\\frac{7}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}+\\frac{3}{5}', '\\frac{2}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{8}:\\frac{-1}{8}', '3');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3} \\times \\frac{6}{7}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}-\\frac{8}{9}', '\\frac{-8}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{4} \\times \\frac{-8}{7}', '-2');
@@ -12088,7 +12088,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{4}{9} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{-4}{3}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}-\\frac{-8}{3}', '\\frac{13}{15}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{8}{5}-\\frac{-7}{5}', '3');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{5}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{7} \\times \\frac{-7}{6}', '\\frac{-5}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{3}-\\frac{-8}{9}', '\\frac{-4}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-2}{5}+\\frac{7}{5}', '1');
@@ -12129,7 +12129,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{3}-\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{2}+\\frac{1}{2}', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{2}:\\frac{-9}{7}', '\\frac{7}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{5}:\\frac{-1}{2}', '\\frac{8}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{9}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{9}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7}:\\frac{-5}{7}', '\\frac{-9}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}-\\frac{-7}{6}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{4}+\\frac{7}{8}', '\\frac{-3}{8}');
@@ -12238,12 +12238,12 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{5}:\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{6}:\\frac{-5}{9}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5}:\\frac{-1}{2}', '\\frac{-4}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3} \\times \\frac{-3}{5}', '\\frac{-1}{5}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{4}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-1}{4}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{6}:\\frac{7}{3}', '\\frac{5}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{6}{5}+\\frac{-3}{5}', '\\frac{3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{4}:\\frac{-7}{2}', '\\frac{1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{3} \\times \\frac{-6}{5}', '-2');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{6}{7}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{6}{7}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}:\\frac{-5}{4}', '\\frac{4}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{9}:\\frac{-1}{9}', '-7');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{2}:\\frac{5}{8}', '\\frac{-12}{5}');
@@ -12305,7 +12305,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{3}-\\frac{1}{6}', '\\frac{-5}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{4} \\times \\frac{2}{3}', '\\frac{3}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}+\\frac{0}{-1}', '\\frac{-1}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{2}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{-5}{2}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{3}+\\frac{7}{2}', '\\frac{11}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2} \\times \\frac{-9}{4}', '\\frac{9}{8}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}-\\frac{-8}{3}', '\\frac{5}{12}');
@@ -12357,7 +12357,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{9}{7} \\t
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{2}:\\frac{-1}{4}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-8}{9}:\\frac{8}{9}', '-1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9} \\times \\frac{9}{8}', '\\frac{5}{8}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}+\\frac{-7}{6}', '\\frac{7}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{3}-\\frac{-7}{3}', '\\frac{8}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4} \\times \\frac{4}{5}', '\\frac{3}{5}');
@@ -12426,7 +12426,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{9}:\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{4}-\\frac{-5}{3}', '\\frac{-7}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}+\\frac{-5}{3}', '\\frac{-11}{12}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}-\\frac{8}{3}', '\\frac{-1}{6}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{3}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1}:\\frac{8}{3}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-5}{7}:\\frac{9}{7}', '\\frac{-5}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{5} \\times \\frac{-3}{7}', '\\frac{3}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{5} \\times \\frac{5}{7}', '\\frac{2}{7}');
@@ -12463,7 +12463,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{4}+\\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{2}-\\frac{3}{7}', '\\frac{1}{14}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}-\\frac{-7}{9}', '1');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{2}:\\frac{9}{4}', '\\frac{10}{9}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{5} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8} \\times \\frac{-8}{9}', '\\frac{-7}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{6}-\\frac{-1}{3}', '\\frac{1}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}:\\frac{-3}{2}', '\\frac{-1}{12}');
@@ -12640,7 +12640,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{3}-\\f
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{8}+\\frac{3}{8}', '\\frac{-3}{4}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5} \\times \\frac{7}{9}', '\\frac{-7}{5}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{2}-\\frac{1}{6}', '\\frac{10}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{5}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{0}{-1} \\times \\frac{3}{5}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{1}{8}:\\frac{-3}{8}', '\\frac{-1}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{3}{4}:\\frac{3}{8}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-3}{4}-\\frac{5}{2}', '\\frac{-13}{4}');
@@ -12660,7 +12660,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-4}{7} \\
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{7}{8}:\\frac{-7}{4}', '\\frac{-1}{2}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{9} \\times \\frac{-3}{2}', '\\frac{7}{6}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-7}{2} \\times \\frac{2}{3}', '\\frac{-7}{3}');
-INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8} \\times \\frac{0}{-1}', '\\frac{0}{-1}');
+INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{5}{8} \\times \\frac{0}{-1}', '0');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-1}{3}+\\frac{-4}{3}', '\\frac{-5}{3}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{2}{9}-\\frac{1}{3}', '\\frac{-1}{9}');
 INSERT INTO exercises (type, statement, solution) VALUES (301, '\\frac{-9}{5}+\\frac{7}{5}', '\\frac{-2}{5}');

@@ -7,7 +7,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (212, '(3^2)^5 : 9^4 - 
 INSERT INTO exercises (type, statement, solution) VALUES (212, '(- 4 \\cdot 5^8 : 5^7 : sqrt {-1+17} )^2 - 29', '-4');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (8^2 : 4^2)^3 : 2^5 \\right]^3 \\cdot (-5+3)^2 : (-10-6)', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\sqrt {\\left[ (-5 + 7) \\cdot (-4+1) \\right] \\cdot \\left[ (-5 + 7) \\cdot (-4+1) \\right]}', '6');
-INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[  \\sqrt {  - \\sqrt {25} \\cdot (-10-10)} \\cdot 10^5 \\right]^2 : 5^12 : 2^10', '4');
+INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[  \\sqrt {  - \\sqrt {25} \\cdot (-10-10)} \\cdot 10^5 \\right]^2 : 5^12 : 2^{10}', '4');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (-4 -5 +12)^3 : ( \\sqrt{36} -15) \\right]^2 - ( 5 - 9) \\cdot (-3)', '-3');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\sqrt {-4 \\cdot (-8) + 17} - (5 - 3) \\cdot ( 3 - 5)', '11');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (2^3 - 3^2)^5 - (3^2 - 2^3)^6 \\right]^3 + \\sqrt {81}', '1');
@@ -23,7 +23,7 @@ INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (-5 -1 -
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ -4 : (-5+3) \\right]^5 : (-1-1)^4 - 2 \\cdot 2', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\sqrt{\\left[ -8 - (-2) \\right]:(8-11) + \\left[ -4 - (+1) +1 \\right] : (2-4)}', '2');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '- \\sqrt{\\left[ -(-2) - 5 \\cdot 2 \\right]:(-2)} + 5 \\cdot 2', '8');
-INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (2^3 \\cdot 2^3)^2 : 2^10  \\right]^2 - 9 \\cdot 2', '-2');
+INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (2^3 \\cdot 2^3)^2 : 2^{10}  \\right]^2 - 9 \\cdot 2', '-2');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ -4 \\cdot (-1+6) \\right] : (-5 - 5) - 5 \\cdot (-2)', '12');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ \\sqrt{900} - (-5 - 9^0)^2 +1 \\right] ^2 : (-5)', '-5');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (-1+2-3+2-4+2) : (-1-1) \\right]^3', '8');
@@ -38,10 +38,10 @@ INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ 5 - (-4 
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (4 - 6)^4 - (-6) \\cdot (-3) \\right]^3 - 2', '-10');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\sqrt {-2 \\cdot (-8)} - 2^3 + (-2)^2 - 5 \\cdot (-1 +4)', '-15');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ -3^3 + 5 \\cdot 5 \\right]^2 - 5 + (-4) \\cdot 2', '-7');
-INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (-1 -1)^3 - 7^0 : (-2 + 5) \\right]^3 + 6 \\cdot (-2)', '- 39');
+INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (-1 -1)^3 - 7^0 : (-2 + 5) \\right]^3 + 6 \\cdot (-2)', '-39');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ 2^3 - 5^2 - (-5 \\cdot \\sqrt{9}) \\right]^3 - 2^0', '-9');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ 5 + 1 \\cdot (-6) - 1 \\right] \\cdot (\\sqrt{4} - 8^0 - 2)', '2');
-INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ \\sqrt {- 2 \\cdot (-1 -1)} -  3 \\cdot 2 \\right]^2 - 10 \\cdot 2', '- 4');
+INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ \\sqrt {- 2 \\cdot (-1 -1)} -  3 \\cdot 2 \\right]^2 - 10 \\cdot 2', '-4');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '- (- 4 - 5) \\cdot (\\sqrt{ \\sqrt {16}} - 6) - ( - 10 - 2)', '-48');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ (5^2 - 3^3)^10 : (-2)^8 \\right]^2 - 2 \\cdot 3^2 + 9 \\cdot 2', '14');
 INSERT INTO exercises (type, statement, solution) VALUES (212, '\\left[ \\sqrt{3 - (-4 - 2) : (-2 + 3)} - 5 \\right]^4 - 7 \\cdot 2', '-30');
