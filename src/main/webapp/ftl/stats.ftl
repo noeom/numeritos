@@ -116,9 +116,9 @@ function loadTableData(jsonResult) {
 	$('#tdWrong').html(jsonResult.wrong);
 	$('#tdTotal').html(total);
     if (total > 0) {
-        $('#tdRight').append('<span class="text-secondary"> (' + rightPct + '%)');
-        $('#tdSoso').append('<span class="text-secondary"> (' + sosoPct + '%)');
-        $('#tdWrong').append('<span class="text-secondary"> (' + wrongPct + '%)');
+        $('#tdRight').append('<span class="text-secondary"> (' + (100 * jsonResult.right / total).toFixed(1) + '%)');
+        $('#tdSoso').append('<span class="text-secondary"> (' + (100 * jsonResult.wrong / total).toFixed(1) + '%)');
+        $('#tdWrong').append('<span class="text-secondary"> (' + (100 * jsonResult.nearly / total).toFixed(1) + '%)');
     }
 	$('#tdProgress').empty();
 	 

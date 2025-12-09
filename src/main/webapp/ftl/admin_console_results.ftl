@@ -176,11 +176,11 @@ function loadTableData(jsonResult) {
 		    wrongPct = Math.round(100 * item.results.wrong / total);
 
 			trHTML += '<td class="text-center text-success"><span class="fw-bold">' + item.results.right +
-                '</span> <span class="text-secondary">('+ rightPct +'%)</span></td>';
+                '</span> <span class="text-secondary">('+ (100 * item.results.right / total).toFixed(1) +'%)</span></td>';
 			trHTML += '<td class="text-center text-warning"><span class="fw-bold">' + item.results.nearly +
-                '</span>  <span class="text-secondary">('+ nearlyPct +'%)</span></td>';	
+                '</span>  <span class="text-secondary">('+ (100 * item.results.nearly / total).toFixed(1) +'%)</span></td>';	
 			trHTML += '<td class="text-center text-danger"><span class="fw-bold">' + item.results.wrong +
-                '</span>  <span class="text-secondary">('+ wrongPct +'%)</span></td>';
+                '</span>  <span class="text-secondary">('+ (100 * item.results.wrong / total).toFixed(1) +'%)</span></td>';
 			trHTML += '<td class="text-center">' + total + '</td>';			
 			trHTML += '<td><div class="progress my-1">';
 			trHTML += '<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width:'+ rightPct +'%"></div>';
